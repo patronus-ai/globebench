@@ -1,0 +1,51 @@
+{
+  "deterministic_decisions": {
+    "abstain": 257,
+    "error": 323,
+    "fail": 719,
+    "pass": 333
+  },
+  "disagreement_matrix": {
+    "deterministic_abstain/judge_fail": 178,
+    "deterministic_abstain/judge_pass": 18,
+    "deterministic_abstain/judge_uncertain": 61,
+    "deterministic_error/judge_uncertain": 323,
+    "deterministic_fail/judge_fail": 461,
+    "deterministic_fail/judge_pass": 254,
+    "deterministic_fail/judge_uncertain": 4,
+    "deterministic_pass/judge_fail": 5,
+    "deterministic_pass/judge_pass": 327,
+    "deterministic_pass/judge_uncertain": 1
+  },
+  "errors": 385,
+  "items": 1632,
+  "judge_model": "openai/gpt-5.6-terra",
+  "judge_params": {
+    "extra_body": {
+      "reasoning": {
+        "effort": "low",
+        "exclude": true
+      }
+    },
+    "max_tokens": 16384,
+    "seed": 0,
+    "temperature": 0.0
+  },
+  "judge_route": "openrouter",
+  "judge_verdicts": {
+    "fail": 644,
+    "pass": 599,
+    "uncertain": 389
+  },
+  "min_confidence": 0.8,
+  "prompt_version": "wm-response-judge/4",
+  "results_sha256": "a4216d236d32f08adeeafaf3d2c3c71c254ddedad048130f9180c83bb4509023",
+  "schema": "wm-response-judge-summary/1",
+  "subject_grader_fingerprint": "wm-grader-1.3+889c9fc33c54",
+  "subject_model_key": "google/gemini-3.7-flash",
+  "usage": {
+    "completion_tokens": 249584,
+    "prompt_tokens": 36397180,
+    "total_tokens": 36646764
+  }
+}

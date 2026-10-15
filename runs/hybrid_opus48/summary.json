@@ -1,0 +1,1020 @@
+{
+  "all_rows": {
+    "format": {
+      "fail": 717,
+      "pass": 915
+    },
+    "n": 1632,
+    "resolution_rules": {
+      "deterministic_certified_equivalence": 301,
+      "deterministic_concrete_contradiction": 1056,
+      "deterministic_git_status_contradiction": 4,
+      "primary_semantic_adjudication": 271
+    },
+    "resolved": 1632,
+    "semantic": {
+      "fail": 1305,
+      "pass": 327
+    },
+    "semantic_accuracy_resolved": 0.200368,
+    "semantic_accuracy_resolved_wilson_95": [
+      0.181661,
+      0.220481
+    ],
+    "serving": {
+      "served": 1632
+    },
+    "task_success_rate_all_rows": 0.200368,
+    "task_success_rate_all_rows_wilson_95": [
+      0.181661,
+      0.220481
+    ]
+  },
+  "by_model": {
+    "anthropic/claude-opus-4.8": {
+      "by_domain": {
+        "code": {
+          "format": {
+            "fail": 260,
+            "pass": 266
+          },
+          "n": 526,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 101,
+            "deterministic_concrete_contradiction": 363,
+            "deterministic_git_status_contradiction": 4,
+            "primary_semantic_adjudication": 58
+          },
+          "resolved": 526,
+          "semantic": {
+            "fail": 416,
+            "pass": 110
+          },
+          "semantic_accuracy_resolved": 0.209125,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.176542,
+            0.245927
+          ],
+          "serving": {
+            "served": 526
+          },
+          "task_success_rate_all_rows": 0.209125,
+          "task_success_rate_all_rows_wilson_95": [
+            0.176542,
+            0.245927
+          ]
+        },
+        "dialogue": {
+          "format": {
+            "fail": 99,
+            "pass": 94
+          },
+          "n": 193,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 18,
+            "deterministic_concrete_contradiction": 153,
+            "primary_semantic_adjudication": 22
+          },
+          "resolved": 193,
+          "semantic": {
+            "fail": 173,
+            "pass": 20
+          },
+          "semantic_accuracy_resolved": 0.103627,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.068089,
+            0.154636
+          ],
+          "serving": {
+            "served": 193
+          },
+          "task_success_rate_all_rows": 0.103627,
+          "task_success_rate_all_rows_wilson_95": [
+            0.068089,
+            0.154636
+          ]
+        },
+        "enterprise": {
+          "format": {
+            "fail": 100,
+            "pass": 281
+          },
+          "n": 381,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 114,
+            "deterministic_concrete_contradiction": 251,
+            "primary_semantic_adjudication": 16
+          },
+          "resolved": 381,
+          "semantic": {
+            "fail": 266,
+            "pass": 115
+          },
+          "semantic_accuracy_resolved": 0.301837,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.257909,
+            0.349722
+          ],
+          "serving": {
+            "served": 381
+          },
+          "task_success_rate_all_rows": 0.301837,
+          "task_success_rate_all_rows_wilson_95": [
+            0.257909,
+            0.349722
+          ]
+        },
+        "game": {
+          "format": {
+            "fail": 136,
+            "pass": 198
+          },
+          "n": 334,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 49,
+            "deterministic_concrete_contradiction": 128,
+            "primary_semantic_adjudication": 157
+          },
+          "resolved": 334,
+          "semantic": {
+            "fail": 278,
+            "pass": 56
+          },
+          "semantic_accuracy_resolved": 0.167665,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.13143,
+            0.211457
+          ],
+          "serving": {
+            "served": 334
+          },
+          "task_success_rate_all_rows": 0.167665,
+          "task_success_rate_all_rows_wilson_95": [
+            0.13143,
+            0.211457
+          ]
+        },
+        "math_and_science": {
+          "format": {
+            "fail": 122,
+            "pass": 76
+          },
+          "n": 198,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 19,
+            "deterministic_concrete_contradiction": 161,
+            "primary_semantic_adjudication": 18
+          },
+          "resolved": 198,
+          "semantic": {
+            "fail": 172,
+            "pass": 26
+          },
+          "semantic_accuracy_resolved": 0.131313,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.091211,
+            0.185449
+          ],
+          "serving": {
+            "served": 198
+          },
+          "task_success_rate_all_rows": 0.131313,
+          "task_success_rate_all_rows_wilson_95": [
+            0.091211,
+            0.185449
+          ]
+        }
+      },
+      "by_scoring_mode": {
+        "claims": {
+          "format": {
+            "fail": 7,
+            "pass": 9
+          },
+          "n": 16,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 7,
+            "deterministic_concrete_contradiction": 9
+          },
+          "resolved": 16,
+          "semantic": {
+            "fail": 9,
+            "pass": 7
+          },
+          "semantic_accuracy_resolved": 0.4375,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.230987,
+            0.668214
+          ],
+          "serving": {
+            "served": 16
+          },
+          "task_success_rate_all_rows": 0.4375,
+          "task_success_rate_all_rows_wilson_95": [
+            0.230987,
+            0.668214
+          ]
+        },
+        "composite_error": {
+          "format": {
+            "fail": 4,
+            "pass": 86
+          },
+          "n": 90,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 44,
+            "deterministic_concrete_contradiction": 46
+          },
+          "resolved": 90,
+          "semantic": {
+            "fail": 46,
+            "pass": 44
+          },
+          "semantic_accuracy_resolved": 0.488889,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.388205,
+            0.590483
+          ],
+          "serving": {
+            "served": 90
+          },
+          "task_success_rate_all_rows": 0.488889,
+          "task_success_rate_all_rows_wilson_95": [
+            0.388205,
+            0.590483
+          ]
+        },
+        "error": {
+          "format": {
+            "fail": 33,
+            "pass": 28
+          },
+          "n": 61,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 47,
+            "deterministic_concrete_contradiction": 4,
+            "primary_semantic_adjudication": 10
+          },
+          "resolved": 61,
+          "semantic": {
+            "fail": 9,
+            "pass": 52
+          },
+          "semantic_accuracy_resolved": 0.852459,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.742768,
+            0.920388
+          ],
+          "serving": {
+            "served": 61
+          },
+          "task_success_rate_all_rows": 0.852459,
+          "task_success_rate_all_rows_wilson_95": [
+            0.742768,
+            0.920388
+          ]
+        },
+        "exact": {
+          "format": {
+            "fail": 88,
+            "pass": 164
+          },
+          "n": 252,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 64,
+            "deterministic_concrete_contradiction": 7,
+            "deterministic_git_status_contradiction": 4,
+            "primary_semantic_adjudication": 177
+          },
+          "resolved": 252,
+          "semantic": {
+            "fail": 176,
+            "pass": 76
+          },
+          "semantic_accuracy_resolved": 0.301587,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.24825,
+            0.360883
+          ],
+          "serving": {
+            "served": 252
+          },
+          "task_success_rate_all_rows": 0.301587,
+          "task_success_rate_all_rows_wilson_95": [
+            0.24825,
+            0.360883
+          ]
+        },
+        "probe": {
+          "format": {
+            "fail": 1,
+            "pass": 31
+          },
+          "n": 32,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 14,
+            "deterministic_concrete_contradiction": 15,
+            "primary_semantic_adjudication": 3
+          },
+          "resolved": 32,
+          "semantic": {
+            "fail": 18,
+            "pass": 14
+          },
+          "semantic_accuracy_resolved": 0.4375,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.281653,
+            0.606744
+          ],
+          "serving": {
+            "served": 32
+          },
+          "task_success_rate_all_rows": 0.4375,
+          "task_success_rate_all_rows_wilson_95": [
+            0.281653,
+            0.606744
+          ]
+        },
+        "structured": {
+          "format": {
+            "fail": 584,
+            "pass": 597
+          },
+          "n": 1181,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 125,
+            "deterministic_concrete_contradiction": 975,
+            "primary_semantic_adjudication": 81
+          },
+          "resolved": 1181,
+          "semantic": {
+            "fail": 1047,
+            "pass": 134
+          },
+          "semantic_accuracy_resolved": 0.113463,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.096614,
+            0.132819
+          ],
+          "serving": {
+            "served": 1181
+          },
+          "task_success_rate_all_rows": 0.113463,
+          "task_success_rate_all_rows_wilson_95": [
+            0.096614,
+            0.132819
+          ]
+        }
+      },
+      "by_sub_eval": {
+        "access_control": {
+          "format": {
+            "fail": 20,
+            "pass": 237
+          },
+          "n": 257,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 8,
+            "deterministic_concrete_contradiction": 231,
+            "primary_semantic_adjudication": 18
+          },
+          "resolved": 257,
+          "semantic": {
+            "fail": 249,
+            "pass": 8
+          },
+          "semantic_accuracy_resolved": 0.031128,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.015856,
+            0.060211
+          ],
+          "serving": {
+            "served": 257
+          },
+          "task_success_rate_all_rows": 0.031128,
+          "task_success_rate_all_rows_wilson_95": [
+            0.015856,
+            0.060211
+          ]
+        },
+        "computational_accuracy": {
+          "format": {
+            "fail": 186,
+            "pass": 305
+          },
+          "n": 491,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 20,
+            "deterministic_concrete_contradiction": 398,
+            "primary_semantic_adjudication": 73
+          },
+          "resolved": 491,
+          "semantic": {
+            "fail": 471,
+            "pass": 20
+          },
+          "semantic_accuracy_resolved": 0.040733,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.026521,
+            0.062076
+          ],
+          "serving": {
+            "served": 491
+          },
+          "task_success_rate_all_rows": 0.040733,
+          "task_success_rate_all_rows_wilson_95": [
+            0.026521,
+            0.062076
+          ]
+        },
+        "content_repetition": {
+          "format": {
+            "fail": 160,
+            "pass": 32
+          },
+          "n": 192,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 9,
+            "deterministic_concrete_contradiction": 182,
+            "primary_semantic_adjudication": 1
+          },
+          "resolved": 192,
+          "semantic": {
+            "fail": 183,
+            "pass": 9
+          },
+          "semantic_accuracy_resolved": 0.046875,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.024854,
+            0.086672
+          ],
+          "serving": {
+            "served": 192
+          },
+          "task_success_rate_all_rows": 0.046875,
+          "task_success_rate_all_rows_wilson_95": [
+            0.024854,
+            0.086672
+          ]
+        },
+        "context_fabrication": {
+          "format": {
+            "fail": 258,
+            "pass": 110
+          },
+          "n": 368,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 48,
+            "deterministic_concrete_contradiction": 283,
+            "primary_semantic_adjudication": 37
+          },
+          "resolved": 368,
+          "semantic": {
+            "fail": 317,
+            "pass": 51
+          },
+          "semantic_accuracy_resolved": 0.138587,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.107004,
+            0.177637
+          ],
+          "serving": {
+            "served": 368
+          },
+          "task_success_rate_all_rows": 0.138587,
+          "task_success_rate_all_rows_wilson_95": [
+            0.107004,
+            0.177637
+          ]
+        },
+        "contradiction_detection": {
+          "format": {
+            "fail": 161,
+            "pass": 29
+          },
+          "n": 190,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 7,
+            "deterministic_concrete_contradiction": 182,
+            "primary_semantic_adjudication": 1
+          },
+          "resolved": 190,
+          "semantic": {
+            "fail": 183,
+            "pass": 7
+          },
+          "semantic_accuracy_resolved": 0.036842,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.017959,
+            0.074083
+          ],
+          "serving": {
+            "served": 190
+          },
+          "task_success_rate_all_rows": 0.036842,
+          "task_success_rate_all_rows_wilson_95": [
+            0.017959,
+            0.074083
+          ]
+        },
+        "error_fidelity": {
+          "format": {
+            "fail": 38,
+            "pass": 55
+          },
+          "n": 93,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 9,
+            "deterministic_concrete_contradiction": 82,
+            "primary_semantic_adjudication": 2
+          },
+          "resolved": 93,
+          "semantic": {
+            "fail": 83,
+            "pass": 10
+          },
+          "semantic_accuracy_resolved": 0.107527,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.059463,
+            0.186728
+          ],
+          "serving": {
+            "served": 93
+          },
+          "task_success_rate_all_rows": 0.107527,
+          "task_success_rate_all_rows_wilson_95": [
+            0.059463,
+            0.186728
+          ]
+        },
+        "format_stability": {
+          "format": {
+            "fail": 38,
+            "pass": 289
+          },
+          "n": 327,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 9,
+            "deterministic_concrete_contradiction": 287,
+            "primary_semantic_adjudication": 31
+          },
+          "resolved": 327,
+          "semantic": {
+            "fail": 316,
+            "pass": 11
+          },
+          "semantic_accuracy_resolved": 0.033639,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.018886,
+            0.059223
+          ],
+          "serving": {
+            "served": 327
+          },
+          "task_success_rate_all_rows": 0.033639,
+          "task_success_rate_all_rows_wilson_95": [
+            0.018886,
+            0.059223
+          ]
+        },
+        "irreversibility": {
+          "format": {
+            "fail": 183,
+            "pass": 27
+          },
+          "n": 210,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 9,
+            "deterministic_concrete_contradiction": 133,
+            "primary_semantic_adjudication": 68
+          },
+          "resolved": 210,
+          "semantic": {
+            "fail": 185,
+            "pass": 25
+          },
+          "semantic_accuracy_resolved": 0.119048,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.08195,
+            0.169832
+          ],
+          "serving": {
+            "served": 210
+          },
+          "task_success_rate_all_rows": 0.119048,
+          "task_success_rate_all_rows_wilson_95": [
+            0.08195,
+            0.169832
+          ]
+        },
+        "partial_failure_semantics": {
+          "format": {
+            "fail": 146,
+            "pass": 176
+          },
+          "n": 322,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 13,
+            "deterministic_concrete_contradiction": 272,
+            "primary_semantic_adjudication": 37
+          },
+          "resolved": 322,
+          "semantic": {
+            "fail": 302,
+            "pass": 20
+          },
+          "semantic_accuracy_resolved": 0.062112,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.040564,
+            0.093984
+          ],
+          "serving": {
+            "served": 322
+          },
+          "task_success_rate_all_rows": 0.062112,
+          "task_success_rate_all_rows_wilson_95": [
+            0.040564,
+            0.093984
+          ]
+        },
+        "quota_enforcement": {
+          "format": {
+            "fail": 48,
+            "pass": 34
+          },
+          "n": 82,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 30,
+            "deterministic_concrete_contradiction": 51,
+            "primary_semantic_adjudication": 1
+          },
+          "resolved": 82,
+          "semantic": {
+            "fail": 51,
+            "pass": 31
+          },
+          "semantic_accuracy_resolved": 0.378049,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.280784,
+            0.486229
+          ],
+          "serving": {
+            "served": 82
+          },
+          "task_success_rate_all_rows": 0.378049,
+          "task_success_rate_all_rows_wilson_95": [
+            0.280784,
+            0.486229
+          ]
+        },
+        "referential_integrity": {
+          "format": {
+            "fail": 205,
+            "pass": 74
+          },
+          "n": 279,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 17,
+            "deterministic_concrete_contradiction": 168,
+            "primary_semantic_adjudication": 94
+          },
+          "resolved": 279,
+          "semantic": {
+            "fail": 254,
+            "pass": 25
+          },
+          "semantic_accuracy_resolved": 0.089606,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.06143,
+            0.128929
+          ],
+          "serving": {
+            "served": 279
+          },
+          "task_success_rate_all_rows": 0.089606,
+          "task_success_rate_all_rows_wilson_95": [
+            0.06143,
+            0.128929
+          ]
+        },
+        "replay_determinism": {
+          "format": {
+            "fail": 581,
+            "pass": 450
+          },
+          "n": 1031,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 44,
+            "deterministic_concrete_contradiction": 907,
+            "primary_semantic_adjudication": 80
+          },
+          "resolved": 1031,
+          "semantic": {
+            "fail": 977,
+            "pass": 54
+          },
+          "semantic_accuracy_resolved": 0.052376,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.040363,
+            0.067713
+          ],
+          "serving": {
+            "served": 1031
+          },
+          "task_success_rate_all_rows": 0.052376,
+          "task_success_rate_all_rows_wilson_95": [
+            0.040363,
+            0.067713
+          ]
+        },
+        "rule_enforcement": {
+          "format": {
+            "fail": 397,
+            "pass": 287
+          },
+          "n": 684,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 11,
+            "deterministic_concrete_contradiction": 596,
+            "primary_semantic_adjudication": 77
+          },
+          "resolved": 684,
+          "semantic": {
+            "fail": 664,
+            "pass": 20
+          },
+          "semantic_accuracy_resolved": 0.02924,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.019007,
+            0.044731
+          ],
+          "serving": {
+            "served": 684
+          },
+          "task_success_rate_all_rows": 0.02924,
+          "task_success_rate_all_rows_wilson_95": [
+            0.019007,
+            0.044731
+          ]
+        },
+        "schema_conformance": {
+          "format": {
+            "fail": 178,
+            "pass": 22
+          },
+          "n": 200,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 11,
+            "deterministic_concrete_contradiction": 129,
+            "primary_semantic_adjudication": 60
+          },
+          "resolved": 200,
+          "semantic": {
+            "fail": 181,
+            "pass": 19
+          },
+          "semantic_accuracy_resolved": 0.095,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.061663,
+            0.143602
+          ],
+          "serving": {
+            "served": 200
+          },
+          "task_success_rate_all_rows": 0.095,
+          "task_success_rate_all_rows_wilson_95": [
+            0.061663,
+            0.143602
+          ]
+        },
+        "side_effect_propagation": {
+          "format": {
+            "fail": 174,
+            "pass": 343
+          },
+          "n": 517,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 16,
+            "deterministic_concrete_contradiction": 479,
+            "primary_semantic_adjudication": 22
+          },
+          "resolved": 517,
+          "semantic": {
+            "fail": 500,
+            "pass": 17
+          },
+          "semantic_accuracy_resolved": 0.032882,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.02063,
+            0.052025
+          ],
+          "serving": {
+            "served": 517
+          },
+          "task_success_rate_all_rows": 0.032882,
+          "task_success_rate_all_rows_wilson_95": [
+            0.02063,
+            0.052025
+          ]
+        },
+        "sycophantic_confirmation": {
+          "format": {
+            "fail": 72,
+            "pass": 20
+          },
+          "n": 92,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 11,
+            "deterministic_concrete_contradiction": 80,
+            "primary_semantic_adjudication": 1
+          },
+          "resolved": 92,
+          "semantic": {
+            "fail": 81,
+            "pass": 11
+          },
+          "semantic_accuracy_resolved": 0.119565,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.068091,
+            0.201536
+          ],
+          "serving": {
+            "served": 92
+          },
+          "task_success_rate_all_rows": 0.119565,
+          "task_success_rate_all_rows_wilson_95": [
+            0.068091,
+            0.201536
+          ]
+        },
+        "temporal_ordering": {
+          "format": {
+            "fail": 516,
+            "pass": 427
+          },
+          "n": 943,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 17,
+            "deterministic_concrete_contradiction": 848,
+            "primary_semantic_adjudication": 78
+          },
+          "resolved": 943,
+          "semantic": {
+            "fail": 918,
+            "pass": 25
+          },
+          "semantic_accuracy_resolved": 0.026511,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.018021,
+            0.038844
+          ],
+          "serving": {
+            "served": 943
+          },
+          "task_success_rate_all_rows": 0.026511,
+          "task_success_rate_all_rows_wilson_95": [
+            0.018021,
+            0.038844
+          ]
+        },
+        "transition_correctness": {
+          "format": {
+            "fail": 28,
+            "pass": 234
+          },
+          "n": 262,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 7,
+            "deterministic_concrete_contradiction": 234,
+            "deterministic_git_status_contradiction": 4,
+            "primary_semantic_adjudication": 17
+          },
+          "resolved": 262,
+          "semantic": {
+            "fail": 253,
+            "pass": 9
+          },
+          "semantic_accuracy_resolved": 0.034351,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.018176,
+            0.063984
+          ],
+          "serving": {
+            "served": 262
+          },
+          "task_success_rate_all_rows": 0.034351,
+          "task_success_rate_all_rows_wilson_95": [
+            0.018176,
+            0.063984
+          ]
+        },
+        "under_over_erroring": {
+          "format": {
+            "fail": 53,
+            "pass": 140
+          },
+          "n": 193,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 54,
+            "deterministic_concrete_contradiction": 134,
+            "primary_semantic_adjudication": 5
+          },
+          "resolved": 193,
+          "semantic": {
+            "fail": 138,
+            "pass": 55
+          },
+          "semantic_accuracy_resolved": 0.284974,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.225971,
+            0.35237
+          ],
+          "serving": {
+            "served": 193
+          },
+          "task_success_rate_all_rows": 0.284974,
+          "task_success_rate_all_rows_wilson_95": [
+            0.225971,
+            0.35237
+          ]
+        },
+        "write_read_persistence": {
+          "format": {
+            "fail": 98,
+            "pass": 109
+          },
+          "n": 207,
+          "resolution_rules": {
+            "deterministic_certified_equivalence": 50,
+            "deterministic_concrete_contradiction": 149,
+            "primary_semantic_adjudication": 8
+          },
+          "resolved": 207,
+          "semantic": {
+            "fail": 155,
+            "pass": 52
+          },
+          "semantic_accuracy_resolved": 0.251208,
+          "semantic_accuracy_resolved_wilson_95": [
+            0.197023,
+            0.314458
+          ],
+          "serving": {
+            "served": 207
+          },
+          "task_success_rate_all_rows": 0.251208,
+          "task_success_rate_all_rows_wilson_95": [
+            0.197023,
+            0.314458
+          ]
+        }
+      },
+      "format": {
+        "fail": 717,
+        "pass": 915
+      },
+      "n": 1632,
+      "resolution_rules": {
+        "deterministic_certified_equivalence": 301,
+        "deterministic_concrete_contradiction": 1056,
+        "deterministic_git_status_contradiction": 4,
+        "primary_semantic_adjudication": 271
+      },
+      "resolved": 1632,
+      "semantic": {
+        "fail": 1305,
+        "pass": 327
+      },
+      "semantic_accuracy_resolved": 0.200368,
+      "semantic_accuracy_resolved_wilson_95": [
+        0.181661,
+        0.220481
+      ],
+      "serving": {
+        "served": 1632
+      },
+      "task_success_rate_all_rows": 0.200368,
+      "task_success_rate_all_rows_wilson_95": [
+        0.181661,
+        0.220481
+      ]
+    }
+  },
+  "conditional_metric": "semantic passes / (passes + failures)",
+  "format_metric": "reported separately; format-only misses are not WM semantic failures",
+  "grader_fingerprint": "wm-grader-1.5+60173beb7ce1",
+  "items": "item_bundle",
+  "items_sha256": "3474e7b2d224cc26e8bae3751e7be005500deddbb70be3c1258eaf0f1c0c2dc3",
+  "models": 1,
+  "n_items": 1632,
+  "policy_version": "wm-hybrid-deterministic-llm/2",
+  "primary_metric": "task success = semantic passes / all assigned rows; serving and unresolved outcomes receive no credit but are reported separately",
+  "response_judge_prompt_version": "wm-response-judge/4",
+  "results": "subject_results",
+  "results_sha256": "3eb88345e5c3ad576a2e8206bd5f40a6641f17940e580cd6dbbf2e0712ab4b17",
+  "schema": "wm-hybrid-score/1",
+  "secondary_queue_by_model": {
+    "anthropic/claude-opus-4.8": 0
+  },
+  "secondary_queue_rows": 0
+}

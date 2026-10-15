@@ -1,0 +1,29 @@
+{
+  "base": {
+    "path": "original_run",
+    "rows_all_models": 4896,
+    "sha256": "1305f5a2d40eb1bfb336b2ef309ee263a25306dbf4e5134ea58df211f25eae1a"
+  },
+  "grader_fingerprint": "wm-grader-1.5+b0df24467fe4",
+  "items": {
+    "path": "item_bundle",
+    "sha256": "3474e7b2d224cc26e8bae3751e7be005500deddbb70be3c1258eaf0f1c0c2dc3"
+  },
+  "model_key": "openai/gpt-6-luna",
+  "recovery": {
+    "attempts": 1,
+    "policy": "one attempt per non-refusal serving failure; answers and refusals never resampled",
+    "replaced": 1
+  },
+  "remaining_nonserving": {
+    "other": 0,
+    "refusals": 0
+  },
+  "rows": 1632,
+  "schema": "wm-subject-release-extract/1",
+  "source": {
+    "path": "source_run",
+    "rows_all_models": 4896,
+    "sha256": "cde919cbc3f001f445ac0cc3fa13aab60d38f5191f51a643d98594ccfcd377dc"
+  }
+}

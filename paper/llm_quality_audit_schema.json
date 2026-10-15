@@ -1,0 +1,21 @@
+{
+  "schema": "wm-llm-quality-audit/1",
+  "purpose": "Quality rubric applied by an LLM judge to the gold next state of every item",
+  "separate_from_benchmark_response_judge": true,
+  "phases": {
+    "blind_without_gold": [
+      "state_coherence",
+      "interface_realism"
+    ],
+    "gold_revealed": [
+      "outcome_correctness",
+      "constraint_enforcement",
+      "training_utility"
+    ]
+  },
+  "score_range": [
+    1,
+    5
+  ],
+  "constraint_enforcement_na": null
+}

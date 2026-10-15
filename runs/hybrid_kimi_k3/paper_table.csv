@@ -1,0 +1,2 @@
+model,n,task_success_rate_all_rows,semantic_accuracy_resolved,unresolved,serving_nonresponse,format_fail
+moonshot/kimi-k3,1632,0.139706,0.139706,0,0,595

@@ -1,0 +1,2 @@
+model,n,task_success_rate_all_rows,semantic_accuracy_resolved,unresolved,serving_nonresponse,format_fail
+anthropic/claude-fable-5,1632,0.072917,0.368421,1309,1309,111

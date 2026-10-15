@@ -1,0 +1,37 @@
+{
+  "deterministic_decisions": {
+    "abstain": 2
+  },
+  "disagreement_matrix": {
+    "deterministic_abstain/judge_fail": 2
+  },
+  "errors": 0,
+  "items": 2,
+  "judge_model": "openai/gpt-5.6-sol",
+  "judge_params": {
+    "extra_body": {
+      "reasoning": {
+        "effort": "low",
+        "exclude": true
+      }
+    },
+    "max_tokens": 16384,
+    "seed": 0,
+    "temperature": 0.0
+  },
+  "judge_route": "openrouter",
+  "judge_verdicts": {
+    "fail": 2
+  },
+  "min_confidence": 0.8,
+  "prompt_version": "wm-response-judge/4",
+  "results_sha256": "74a9648efc26dd949be74bcd1873122e258eb48a06bfd4cc707c2044ea4a2c0e",
+  "schema": "wm-response-judge-summary/1",
+  "subject_grader_fingerprint": "wm-grader-1.3+889c9fc33c54",
+  "subject_model_key": "openai/gpt-5.5",
+  "usage": {
+    "completion_tokens": 222,
+    "prompt_tokens": 13393,
+    "total_tokens": 13615
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "grader_fingerprint": "wm-grader-1.5+b0df24467fe4",
+  "items": {
+    "path": "item_bundle",
+    "sha256": "3474e7b2d224cc26e8bae3751e7be005500deddbb70be3c1258eaf0f1c0c2dc3"
+  },
+  "nonserving_rows_unchanged": 0,
+  "output": {
+    "path": "final_run",
+    "sha256": "33831af1389abc383c767d98b5d3e853674df55d944d442aa226901bbb0350e4"
+  },
+  "preserved_fields": [
+    "prediction",
+    "params",
+    "latency_ms",
+    "prompt_tokens",
+    "completion_tokens",
+    "finish_reason"
+  ],
+  "rows": 1632,
+  "schema": "wm-subject-regrade/1",
+  "served_rows_refreshed": 1632,
+  "source": {
+    "path": "source_run",
+    "sha256": "af7fd512ba932d12e84ce84fa1f742f1f0435cde4fe7721d1007197cd35c3e13"
+  }
+}

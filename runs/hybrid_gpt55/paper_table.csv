@@ -1,0 +1,2 @@
+model,n,task_success_rate_all_rows,semantic_accuracy_resolved,unresolved,serving_nonresponse,format_fail
+openai/gpt-5.5,1632,0.251838,0.251838,0,0,555

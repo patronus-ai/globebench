@@ -1,0 +1,64 @@
+{
+  "schema": "wm-llm-quality-audit-summary/1",
+  "prompt_version": "wm-llm-quality-audit/1",
+  "status": "descriptive",
+  "candidate_source": "executed_gold",
+  "items": 1632,
+  "complete": 1627,
+  "errors": 5,
+  "coverage": 0.9969362745098039,
+  "error_types": {
+    "ValueError": 5
+  },
+  "means": {
+    "state_coherence": 4.452366318377382,
+    "interface_realism": 4.889366933005531,
+    "outcome_correctness": 5.0,
+    "constraint_enforcement": 5.0,
+    "training_utility": 4.993239090350338
+  },
+  "dimension_counts": {
+    "state_coherence": 1627,
+    "interface_realism": 1627,
+    "outcome_correctness": 1627,
+    "constraint_enforcement": 153,
+    "training_utility": 1627
+  },
+  "low_score_rows": 395,
+  "by_domain": {
+    "code": {
+      "items": 526,
+      "state_coherence": 4.32509505703422,
+      "interface_realism": 4.9562737642585555
+    },
+    "dialogue": {
+      "items": 192,
+      "state_coherence": 4.380208333333333,
+      "interface_realism": 4.953125
+    },
+    "enterprise": {
+      "items": 380,
+      "state_coherence": 4.718421052631579,
+      "interface_realism": 4.692105263157894
+    },
+    "game": {
+      "items": 334,
+      "state_coherence": 4.5,
+      "interface_realism": 4.961077844311378
+    },
+    "math_and_science": {
+      "items": 195,
+      "state_coherence": 4.266666666666667,
+      "interface_realism": 4.907692307692308
+    }
+  },
+  "artifact_hashes": {
+    "scores_sha256": "ecdd638f913e5715c0f0e3c3ca18178384095e0f966f1a4a0b236110337b89b3",
+    "low_scores_sha256": "2da1cc4948eff2332e723d4947551b63d9f3f095663ab96d8c9eaf99b26429e3"
+  },
+  "interpretation": {
+    "outcome_correctness": "The rated state is the execution-derived gold, so this dimension is expected to be 5.",
+    "constraint_enforcement": "The mean covers the 153 items the judge marked applicable.",
+    "state_coherence": "Items scored below 4 are listed in runs/llm_quality_audit/low_scores.jsonl."
+  }
+}

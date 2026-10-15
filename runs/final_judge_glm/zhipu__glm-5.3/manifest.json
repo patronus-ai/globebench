@@ -1,0 +1,21 @@
+{
+  "added": 0,
+  "base": {
+    "path": "original_run",
+    "rows": 1632,
+    "sha256": "72699524010526b8c1ba6f6d2427b2992ab3f84a87db31e7c3e696c8f85f85e0"
+  },
+  "judge_errors": 0,
+  "output": "final_run",
+  "output_sha256": "d4f43ef6f11574a32740d94adc60a7078d0128708c020f77c33fc8b0cac79417",
+  "repair_sources": [
+    {
+      "path": "retry_run",
+      "rows": 1,
+      "sha256": "12615337a9ac1b4afc6ad61daec9b26d30119b31ea18dfd4c5f1458d9fb34799"
+    }
+  ],
+  "replaced": 1,
+  "schema": "wm-judgment-repair-overlay/1",
+  "uncertain": 5
+}

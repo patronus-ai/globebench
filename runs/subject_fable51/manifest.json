@@ -1,0 +1,29 @@
+{
+  "base": {
+    "path": "original_run",
+    "rows_all_models": 4896,
+    "sha256": "99b066b271eba2654acd378364547d1a2daa39ca794abd713d760d5c40a7346d"
+  },
+  "grader_fingerprint": "wm-grader-1.5+b0df24467fe4",
+  "items": {
+    "path": "item_bundle",
+    "sha256": "3474e7b2d224cc26e8bae3751e7be005500deddbb70be3c1258eaf0f1c0c2dc3"
+  },
+  "model_key": "anthropic/claude-fable-5.1",
+  "recovery": {
+    "attempts": 106,
+    "policy": "one attempt per non-refusal serving failure; answers and refusals never resampled",
+    "replaced": 24
+  },
+  "remaining_nonserving": {
+    "other": 82,
+    "refusals": 668
+  },
+  "rows": 1632,
+  "schema": "wm-subject-release-extract/1",
+  "source": {
+    "path": "source_run",
+    "rows_all_models": 4896,
+    "sha256": "616abbf4538a4fffa3574915bc1ae44324acc9acd0f2f303c552f3eb73ae88c4"
+  }
+}

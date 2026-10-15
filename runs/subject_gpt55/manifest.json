@@ -1,0 +1,28 @@
+{
+  "base": {
+    "path": "original_run",
+    "rows": 1632,
+    "sha256": "dda54b166036bba8f3541dba0963307ab9fd326a50a1a2807bf31aa29810eb26"
+  },
+  "outcomes": {
+    "repair_not_served": 1,
+    "replaced": 6
+  },
+  "output": "final_run",
+  "output_sha256": "116457888a4b45aecc53b1c478aa9e7eaf2fa49f875387a8d4b8b96893582f0d",
+  "remaining_nonserving": 0,
+  "repair_sources": [
+    {
+      "path": "retry_run",
+      "rows": 6,
+      "sha256": "4c2832b2628ed523196989224e07fca9a267460ef889ae60addb98fe84de308b"
+    },
+    {
+      "path": "retry_run",
+      "rows": 1,
+      "sha256": "ea033c2f8656325386a06ba1f620f50c1a972e54cd92648b5a93a08648953100"
+    }
+  ],
+  "replaced": 6,
+  "schema": "wm-subject-repair-overlay/1"
+}

@@ -1,0 +1,3936 @@
+{
+  "answered_failure_deterministic_modes": {
+    "composite_error": {
+      "n": 655,
+      "pct": 2.92
+    },
+    "composite_error_missing": {
+      "n": 124,
+      "pct": 0.55
+    },
+    "content_claims": {
+      "n": 101,
+      "pct": 0.45
+    },
+    "content_claims_unparsed": {
+      "n": 15,
+      "pct": 0.07
+    },
+    "error_class_mismatch": {
+      "n": 3,
+      "pct": 0.01
+    },
+    "error_family_mismatch": {
+      "n": 12,
+      "pct": 0.05
+    },
+    "error_missing": {
+      "n": 154,
+      "pct": 0.69
+    },
+    "error_referent": {
+      "n": 10,
+      "pct": 0.04
+    },
+    "error_spurious": {
+      "n": 127,
+      "pct": 0.57
+    },
+    "exact": {
+      "n": 2,
+      "pct": 0.01
+    },
+    "json": {
+      "n": 16983,
+      "pct": 75.71
+    },
+    "json_order": {
+      "n": 43,
+      "pct": 0.19
+    },
+    "mismatch": {
+      "n": 4196,
+      "pct": 18.71
+    },
+    "multi_error_surface": {
+      "n": 6,
+      "pct": 0.03
+    }
+  },
+  "answered_failure_resolution_evidence": {
+    "deterministic_concrete_contradiction": {
+      "n": 18219,
+      "pct": 81.22
+    },
+    "deterministic_git_status_contradiction": {
+      "n": 66,
+      "pct": 0.29
+    },
+    "primary_semantic_adjudication": {
+      "n": 4140,
+      "pct": 18.46
+    },
+    "secondary_semantic_adjudication": {
+      "n": 6,
+      "pct": 0.03
+    }
+  },
+  "decision_outcomes_by_axis": {
+    "horizon": {
+      "17-40": {
+        "fail": 954,
+        "fail_pct": 53.85,
+        "n": 2080,
+        "no_response": 166,
+        "no_response_pct": 7.98,
+        "pass": 960,
+        "pass_pct": 46.15
+      },
+      "41-80": {
+        "fail": 741,
+        "fail_pct": 89.79,
+        "n": 940,
+        "no_response": 103,
+        "no_response_pct": 10.96,
+        "pass": 96,
+        "pass_pct": 10.21
+      },
+      "5-16": {
+        "fail": 1586,
+        "fail_pct": 63.37,
+        "n": 2880,
+        "no_response": 239,
+        "no_response_pct": 8.3,
+        "pass": 1055,
+        "pass_pct": 36.63
+      },
+      "<=4": {
+        "fail": 1399,
+        "fail_pct": 55.16,
+        "n": 3200,
+        "no_response": 366,
+        "no_response_pct": 11.44,
+        "pass": 1435,
+        "pass_pct": 44.84
+      },
+      ">80": {
+        "fail": 17417,
+        "fail_pct": 88.51,
+        "n": 22900,
+        "no_response": 2851,
+        "no_response_pct": 12.45,
+        "pass": 2632,
+        "pass_pct": 11.49
+      },
+      "none": {
+        "fail": 334,
+        "fail_pct": 61.72,
+        "n": 640,
+        "no_response": 61,
+        "no_response_pct": 9.53,
+        "pass": 245,
+        "pass_pct": 38.28
+      }
+    },
+    "horizon_40": {
+      "<=40": {
+        "fail": 3939,
+        "fail_pct": 57.72,
+        "n": 8160,
+        "no_response": 771,
+        "no_response_pct": 9.45,
+        "pass": 3450,
+        "pass_pct": 42.28
+      },
+      ">40": {
+        "fail": 18158,
+        "fail_pct": 88.56,
+        "n": 23840,
+        "no_response": 2954,
+        "no_response_pct": 12.39,
+        "pass": 2728,
+        "pass_pct": 11.44
+      },
+      "none": {
+        "fail": 334,
+        "fail_pct": 61.72,
+        "n": 640,
+        "no_response": 61,
+        "no_response_pct": 9.53,
+        "pass": 245,
+        "pass_pct": 38.28
+      }
+    },
+    "radius": {
+      "L0": {
+        "fail": 5209,
+        "fail_pct": 56.51,
+        "n": 11040,
+        "no_response": 1030,
+        "no_response_pct": 9.33,
+        "pass": 4801,
+        "pass_pct": 43.49
+      },
+      "L1": {
+        "fail": 394,
+        "fail_pct": 72.88,
+        "n": 660,
+        "no_response": 87,
+        "no_response_pct": 13.18,
+        "pass": 179,
+        "pass_pct": 27.12
+      },
+      "L2": {
+        "fail": 779,
+        "fail_pct": 72.46,
+        "n": 1180,
+        "no_response": 76,
+        "no_response_pct": 6.44,
+        "pass": 325,
+        "pass_pct": 27.54
+      },
+      "L3": {
+        "fail": 15990,
+        "fail_pct": 94.9,
+        "n": 19540,
+        "no_response": 2553,
+        "no_response_pct": 13.07,
+        "pass": 997,
+        "pass_pct": 5.1
+      },
+      "none": {
+        "fail": 59,
+        "fail_pct": 45.0,
+        "n": 220,
+        "no_response": 40,
+        "no_response_pct": 18.18,
+        "pass": 121,
+        "pass_pct": 55.0
+      }
+    }
+  },
+  "decision_outcomes_by_domain": {
+    "code": {
+      "fail": 7164,
+      "fail_pct": 83.83,
+      "n": 10520,
+      "no_response": 1655,
+      "no_response_pct": 15.73,
+      "pass": 1701,
+      "pass_pct": 16.17
+    },
+    "dialogue": {
+      "fail": 2902,
+      "fail_pct": 88.16,
+      "n": 3860,
+      "no_response": 501,
+      "no_response_pct": 12.98,
+      "pass": 457,
+      "pass_pct": 11.84
+    },
+    "enterprise": {
+      "fail": 4864,
+      "fail_pct": 74.48,
+      "n": 7620,
+      "no_response": 811,
+      "no_response_pct": 10.64,
+      "pass": 1945,
+      "pass_pct": 25.52
+    },
+    "game": {
+      "fail": 4510,
+      "fail_pct": 72.23,
+      "n": 6680,
+      "no_response": 315,
+      "no_response_pct": 4.72,
+      "pass": 1855,
+      "pass_pct": 27.77
+    },
+    "math_and_science": {
+      "fail": 2991,
+      "fail_pct": 88.26,
+      "n": 3960,
+      "no_response": 504,
+      "no_response_pct": 12.73,
+      "pass": 465,
+      "pass_pct": 11.74
+    }
+  },
+  "decision_outcomes_by_primary_skill": {
+    "access_control": {
+      "fail": 3411,
+      "fail_pct": 93.37,
+      "n": 4480,
+      "no_response": 772,
+      "no_response_pct": 17.23,
+      "pass": 297,
+      "pass_pct": 6.63
+    },
+    "computational_accuracy": {
+      "fail": 2672,
+      "fail_pct": 79.44,
+      "n": 3940,
+      "no_response": 458,
+      "no_response_pct": 11.62,
+      "pass": 810,
+      "pass_pct": 20.56
+    },
+    "content_repetition": {
+      "fail": 53,
+      "fail_pct": 33.64,
+      "n": 220,
+      "no_response": 21,
+      "no_response_pct": 9.55,
+      "pass": 146,
+      "pass_pct": 66.36
+    },
+    "contradiction_detection": {
+      "fail": 1942,
+      "fail_pct": 93.45,
+      "n": 2200,
+      "no_response": 114,
+      "no_response_pct": 5.18,
+      "pass": 144,
+      "pass_pct": 6.55
+    },
+    "error_fidelity": {
+      "fail": 538,
+      "fail_pct": 80.73,
+      "n": 820,
+      "no_response": 124,
+      "no_response_pct": 15.12,
+      "pass": 158,
+      "pass_pct": 19.27
+    },
+    "format_stability": {
+      "fail": 1020,
+      "fail_pct": 87.03,
+      "n": 1380,
+      "no_response": 181,
+      "no_response_pct": 13.12,
+      "pass": 179,
+      "pass_pct": 12.97
+    },
+    "irreversibility": {
+      "fail": 104,
+      "fail_pct": 40.28,
+      "n": 360,
+      "no_response": 41,
+      "no_response_pct": 11.39,
+      "pass": 215,
+      "pass_pct": 59.72
+    },
+    "partial_failure_semantics": {
+      "fail": 898,
+      "fail_pct": 74.65,
+      "n": 1420,
+      "no_response": 162,
+      "no_response_pct": 11.41,
+      "pass": 360,
+      "pass_pct": 25.35
+    },
+    "quota_enforcement": {
+      "fail": 994,
+      "fail_pct": 67.87,
+      "n": 1640,
+      "no_response": 119,
+      "no_response_pct": 7.26,
+      "pass": 527,
+      "pass_pct": 32.13
+    },
+    "referential_integrity": {
+      "fail": 605,
+      "fail_pct": 68.9,
+      "n": 1000,
+      "no_response": 84,
+      "no_response_pct": 8.4,
+      "pass": 311,
+      "pass_pct": 31.1
+    },
+    "replay_determinism": {
+      "fail": 433,
+      "fail_pct": 57.2,
+      "n": 820,
+      "no_response": 36,
+      "no_response_pct": 4.39,
+      "pass": 351,
+      "pass_pct": 42.8
+    },
+    "rule_enforcement": {
+      "fail": 62,
+      "fail_pct": 47.86,
+      "n": 140,
+      "no_response": 5,
+      "no_response_pct": 3.57,
+      "pass": 73,
+      "pass_pct": 52.14
+    },
+    "schema_conformance": {
+      "fail": 3235,
+      "fail_pct": 94.13,
+      "n": 4000,
+      "no_response": 530,
+      "no_response_pct": 13.25,
+      "pass": 235,
+      "pass_pct": 5.88
+    },
+    "side_effect_propagation": {
+      "fail": 334,
+      "fail_pct": 61.72,
+      "n": 640,
+      "no_response": 61,
+      "no_response_pct": 9.53,
+      "pass": 245,
+      "pass_pct": 38.28
+    },
+    "sycophantic_confirmation": {
+      "fail": 1512,
+      "fail_pct": 91.74,
+      "n": 1840,
+      "no_response": 176,
+      "no_response_pct": 9.57,
+      "pass": 152,
+      "pass_pct": 8.26
+    },
+    "temporal_ordering": {
+      "fail": 538,
+      "fail_pct": 64.88,
+      "n": 860,
+      "no_response": 20,
+      "no_response_pct": 2.33,
+      "pass": 302,
+      "pass_pct": 35.12
+    },
+    "transition_correctness": {
+      "fail": 285,
+      "fail_pct": 63.6,
+      "n": 500,
+      "no_response": 33,
+      "no_response_pct": 6.6,
+      "pass": 182,
+      "pass_pct": 36.4
+    },
+    "under_over_erroring": {
+      "fail": 984,
+      "fail_pct": 54.78,
+      "n": 2240,
+      "no_response": 243,
+      "no_response_pct": 10.85,
+      "pass": 1013,
+      "pass_pct": 45.22
+    },
+    "write_read_persistence": {
+      "fail": 2811,
+      "fail_pct": 82.54,
+      "n": 4140,
+      "no_response": 606,
+      "no_response_pct": 14.64,
+      "pass": 723,
+      "pass_pct": 17.46
+    }
+  },
+  "decision_outcomes_by_skill_any_label": {
+    "access_control": {
+      "fail": 3939,
+      "fail_pct": 93.91,
+      "n": 5140,
+      "no_response": 888,
+      "no_response_pct": 17.28,
+      "pass": 313,
+      "pass_pct": 6.09
+    },
+    "computational_accuracy": {
+      "fail": 7368,
+      "fail_pct": 88.74,
+      "n": 9820,
+      "no_response": 1346,
+      "no_response_pct": 13.71,
+      "pass": 1106,
+      "pass_pct": 11.26
+    },
+    "content_repetition": {
+      "fail": 3401,
+      "fail_pct": 95.57,
+      "n": 3840,
+      "no_response": 269,
+      "no_response_pct": 7.01,
+      "pass": 170,
+      "pass_pct": 4.43
+    },
+    "context_fabrication": {
+      "fail": 5774,
+      "fail_pct": 87.23,
+      "n": 7360,
+      "no_response": 646,
+      "no_response_pct": 8.78,
+      "pass": 940,
+      "pass_pct": 12.77
+    },
+    "contradiction_detection": {
+      "fail": 3383,
+      "fail_pct": 95.97,
+      "n": 3800,
+      "no_response": 264,
+      "no_response_pct": 6.95,
+      "pass": 153,
+      "pass_pct": 4.03
+    },
+    "error_fidelity": {
+      "fail": 1433,
+      "fail_pct": 88.92,
+      "n": 1860,
+      "no_response": 221,
+      "no_response_pct": 11.88,
+      "pass": 206,
+      "pass_pct": 11.08
+    },
+    "format_stability": {
+      "fail": 5129,
+      "fail_pct": 94.11,
+      "n": 6540,
+      "no_response": 1026,
+      "no_response_pct": 15.69,
+      "pass": 385,
+      "pass_pct": 5.89
+    },
+    "irreversibility": {
+      "fail": 3319,
+      "fail_pct": 92.31,
+      "n": 4200,
+      "no_response": 558,
+      "no_response_pct": 13.29,
+      "pass": 323,
+      "pass_pct": 7.69
+    },
+    "partial_failure_semantics": {
+      "fail": 4872,
+      "fail_pct": 90.67,
+      "n": 6440,
+      "no_response": 967,
+      "no_response_pct": 15.02,
+      "pass": 601,
+      "pass_pct": 9.33
+    },
+    "quota_enforcement": {
+      "fail": 994,
+      "fail_pct": 67.87,
+      "n": 1640,
+      "no_response": 119,
+      "no_response_pct": 7.26,
+      "pass": 527,
+      "pass_pct": 32.13
+    },
+    "referential_integrity": {
+      "fail": 4433,
+      "fail_pct": 92.47,
+      "n": 5580,
+      "no_response": 727,
+      "no_response_pct": 13.03,
+      "pass": 420,
+      "pass_pct": 7.53
+    },
+    "replay_determinism": {
+      "fail": 16848,
+      "fail_pct": 94.59,
+      "n": 20620,
+      "no_response": 2657,
+      "no_response_pct": 12.89,
+      "pass": 1115,
+      "pass_pct": 5.41
+    },
+    "rule_enforcement": {
+      "fail": 11432,
+      "fail_pct": 96.24,
+      "n": 13680,
+      "no_response": 1733,
+      "no_response_pct": 12.67,
+      "pass": 515,
+      "pass_pct": 3.76
+    },
+    "schema_conformance": {
+      "fail": 3235,
+      "fail_pct": 94.13,
+      "n": 4000,
+      "no_response": 530,
+      "no_response_pct": 13.25,
+      "pass": 235,
+      "pass_pct": 5.88
+    },
+    "side_effect_propagation": {
+      "fail": 8047,
+      "fail_pct": 93.49,
+      "n": 10340,
+      "no_response": 1620,
+      "no_response_pct": 15.67,
+      "pass": 673,
+      "pass_pct": 6.51
+    },
+    "sycophantic_confirmation": {
+      "fail": 1512,
+      "fail_pct": 91.74,
+      "n": 1840,
+      "no_response": 176,
+      "no_response_pct": 9.57,
+      "pass": 152,
+      "pass_pct": 8.26
+    },
+    "temporal_ordering": {
+      "fail": 15364,
+      "fail_pct": 94.37,
+      "n": 18860,
+      "no_response": 2434,
+      "no_response_pct": 12.91,
+      "pass": 1062,
+      "pass_pct": 5.63
+    },
+    "transition_correctness": {
+      "fail": 4024,
+      "fail_pct": 93.21,
+      "n": 5240,
+      "no_response": 860,
+      "no_response_pct": 16.41,
+      "pass": 356,
+      "pass_pct": 6.79
+    },
+    "under_over_erroring": {
+      "fail": 2344,
+      "fail_pct": 72.25,
+      "n": 3860,
+      "no_response": 445,
+      "no_response_pct": 11.53,
+      "pass": 1071,
+      "pass_pct": 27.75
+    },
+    "write_read_persistence": {
+      "fail": 2811,
+      "fail_pct": 82.54,
+      "n": 4140,
+      "no_response": 606,
+      "no_response_pct": 14.64,
+      "pass": 723,
+      "pass_pct": 17.46
+    }
+  },
+  "evidence_cards": [
+    {
+      "category": "wrong_value_only",
+      "contradictory_claims": [
+        "$[0].stock"
+      ],
+      "deterministic_mode": "json",
+      "domain": "code",
+      "extra_claims": [],
+      "final_action": "sql: UPDATE products SET stock = stock - CASE WHEN stock > 10 THEN 2 ELSE 1 END WHERE id IN (100017, 100018, 904927) RETURNING id, stock",
+      "gold": "[{\"id\": 100017, \"stock\": 6}, {\"id\": 100018, \"stock\": 9}]",
+      "h_reachback": 11,
+      "item_id": "db-partial_failure_probe-h10-r1-partial_failure_probe-injected",
+      "missing_claims": [],
+      "model": "GPT-5.6 Sol",
+      "operator": "partial_failure_probe",
+      "prediction": "[{\"id\": 100017, \"stock\": 5}, {\"id\": 100018, \"stock\": 9}]",
+      "prompt_chars": 2371,
+      "radius": "L2",
+      "resolution_rule": "deterministic_concrete_contradiction",
+      "sub_evals": [
+        "partial_failure_semantics"
+      ]
+    },
+    {
+      "category": "omission_only",
+      "contradictory_claims": [],
+      "deterministic_mode": "json",
+      "domain": "enterprise",
+      "extra_claims": [],
+      "final_action": "api.get_user_tickets: {\"status\": \"Open\"}",
+      "gold": "[{\"error\": \"User not authenticated. Please log in to view tickets.\"}]",
+      "h_reachback": 4,
+      "item_id": "api-access_control_probe-h3-r0-TicketAPI-1-access_control_probe-injected",
+      "missing_claims": [
+        "$[0].error"
+      ],
+      "model": "Grok 4.6",
+      "operator": "access_control_probe",
+      "prediction": "[]",
+      "prompt_chars": 11236,
+      "radius": "L0",
+      "resolution_rule": "deterministic_concrete_contradiction",
+      "sub_evals": [
+        "access_control"
+      ]
+    },
+    {
+      "category": "schema_substitution",
+      "contradictory_claims": [],
+      "deterministic_mode": "json",
+      "domain": "code",
+      "extra_claims": [
+        "$.modules[0].effective_config_values.feature_0_0",
+        "$.modules[0].effective_config_values.feature_0_2",
+        "$.modules[0].effective_config_values.feature_0_3",
+        "$.modules[1].effective_config_values.feature_0_1",
+        "$.modules[1].effective_config_values.feature_0_3",
+        "$.modules[2].effective_config_values.feature_0_1",
+        "$.modules[2].effective_config_values.feature_0_2",
+        "$.modules[3].effective_config_values.feature_0_0",
+        "$.modules[4].effective_config_values.feature_0_0",
+        "$.modules[4].effective_config_values.feature_0_1",
+        "$.modules[4].effective_config_values.feature_0_3",
+        "$.modules[5].effective_config_values.feature_0_3"
+      ],
+      "final_action": "repoctl apply '{\"modules\":[\"unit_910015_02_next\",\"unit_910015_08\",\"unit_910015_05\",\"unit_910015_09\",\"unit_910015_00\",\"unit_910015_11\"],\"op\":\"audit\",\"tests\":[\"test_910015_01\",\"test_910015_00\",\"test_910015_06\",\"test_910015_04\"]}'",
+      "gold": "{\"blocked_test_count\":1,\"built_module_count\":5,\"failing_test_count\":3,\"modules\":[{\"direct_dependencies\":[\"unit_910015_00\"],\"effective_config_values\":[{\"key\":\"feature_0_0\",\"value\":229},{\"key\":\"feature_0_2\",\"value\":62},{\"key\":\"feature_0_3\",\"value\":609}],\"module\":\"unit_910015_02_next\",\"path\":\"workspace/python-910015/src/unit_910015_02_next.py\",\"status\":\"built\",\"value\":110},{\"direct_dependencies\":[\"unit_910015_07\"],\"effective_config_values\":[{\"key\":\"feature_0_3\",\"value\":609},{\"key\":\"feature_0_1\",\"value\":522}],\"module\":\"unit_910015_08\",\"path\":\"workspace/python-910015/src/unit_910015_08.py\",\"status\":\"built\",\"value\":680},{\"direct_dependencies\":[\"unit_910015_03\"],\"effective_config_values\":[{\"key\":\"feature_0_2\",\"value\":62},{\"key\":\"feature_0_1\",\"value\":522}],\"module\":\"unit_910015_05\",\"path\":\"workspace/python-910015/src/unit_910015_05.py\",\"status\":\"built\",\"value\":392},{\"direct_dependencies\":[\"unit\u2026",
+      "h_reachback": 120,
+      "item_id": "xfbuild1-00-15-shell-injected",
+      "missing_claims": [
+        "$.modules[0].effective_config_values[0].key",
+        "$.modules[0].effective_config_values[0].value",
+        "$.modules[0].effective_config_values[1].key",
+        "$.modules[0].effective_config_values[1].value",
+        "$.modules[0].effective_config_values[2].key",
+        "$.modules[0].effective_config_values[2].value",
+        "$.modules[1].effective_config_values[0].key",
+        "$.modules[1].effective_config_values[0].value",
+        "$.modules[1].effective_config_values[1].key",
+        "$.modules[1].effective_config_values[1].value",
+        "$.modules[2].effective_config_values[0].key",
+        "$.modules[2].effective_config_values[0].value"
+      ],
+      "model": "Gemini 3.7 Flash",
+      "operator": "cross_file_build_config_test_reconciliation",
+      "prediction": "{\"built_module_count\":5,\"failing_test_count\":3,\"modules\":[{\"direct_dependencies\":[\"unit_910015_00\"],\"effective_config_values\":{\"feature_0_0\":229,\"feature_0_2\":62,\"feature_0_3\":609},\"module\":\"unit_910015_02_next\",\"path\":\"workspace/python-910015/src/unit_910015_02_next.py\",\"status\":\"built\",\"value\":110},{\"direct_dependencies\":[\"unit_910015_07\"],\"effective_config_values\":{\"feature_0_1\":522,\"feature_0_3\":609},\"module\":\"unit_910015_08\",\"path\":\"workspace/python-910015/src/unit_910015_08.py\",\"status\":\"built\",\"value\":680},{\"direct_dependencies\":[\"unit_910015_03\"],\"effective_config_values\":{\"feature_0_1\":522,\"feature_0_2\":62},\"module\":\"unit_910015_05\",\"path\":\"workspace/python-910015/src/unit_910015_05.py\",\"status\":\"built\",\"value\":392},{\"direct_dependencies\":[\"unit_910015_08\"],\"effective_config_values\":{\"feature_0_0\":229},\"module\":\"unit_910015_09\",\"path\":\"workspace/python-910015/src/unit_910015_09\u2026",
+      "prompt_chars": 30248,
+      "radius": "L1",
+      "resolution_rule": "deterministic_concrete_contradiction",
+      "sub_evals": [
+        "write_read_persistence",
+        "referential_integrity",
+        "temporal_ordering",
+        "side_effect_propagation",
+        "replay_determinism",
+        "computational_accuracy"
+      ]
+    },
+    {
+      "category": "schema_substitution",
+      "contradictory_claims": [],
+      "deterministic_mode": "json",
+      "domain": "enterprise",
+      "extra_claims": [
+        "$.error"
+      ],
+      "final_action": "api.canonical_config_matrix: {\"file_names\": [\"billing-quotas.conf\", \"notifier-quotas.conf\", \"search-retention.conf\", \"scheduler-retention.conf\"]}",
+      "gold": "{\"files\": [{\"file_name\": \"billing-quotas.conf\", \"canonical_content\": \"onyx-russet-18\"}, {\"file_name\": \"notifier-quotas.conf\", \"canonical_content\": \"basalt-ember-66\"}, {\"file_name\": \"search-retention.conf\", \"canonical_content\": \"russet-quartz-61\"}, {\"file_name\": \"scheduler-retention.conf\", \"canonical_content\": \"juniper-sable-98\"}], \"key_matrix\": [], \"constraints\": {\"agreement_count\": 0, \"disagreement_count\": 0, \"transition_total\": 0, \"numeric_span_total\": 0}}",
+      "h_reachback": 4,
+      "item_id": "ar1-api-replay-h3-r30001-n0020-GorillaFileSystem-2-replay_determinism_probe-injected",
+      "missing_claims": [
+        "$.constraints.agreement_count",
+        "$.constraints.disagreement_count",
+        "$.constraints.numeric_span_total",
+        "$.constraints.transition_total",
+        "$.files[0].canonical_content",
+        "$.files[0].file_name",
+        "$.files[1].canonical_content",
+        "$.files[1].file_name",
+        "$.files[2].canonical_content",
+        "$.files[2].file_name",
+        "$.files[3].canonical_content",
+        "$.files[3].file_name"
+      ],
+      "model": "GPT-6 Astra",
+      "operator": "replay_determinism_probe",
+      "prediction": "{\"error\": \"Invalid config line in billing-quotas.conf: onyx-russet-18\"}",
+      "prompt_chars": 8440,
+      "radius": "L0",
+      "resolution_rule": "deterministic_concrete_contradiction",
+      "sub_evals": [
+        "replay_determinism"
+      ]
+    },
+    {
+      "category": "wrong_value_plus_structure",
+      "contradictory_claims": [
+        "$.ordered_writes[8].bytes",
+        "$.ordered_writes[8].file_name"
+      ],
+      "deterministic_mode": "json",
+      "domain": "enterprise",
+      "extra_claims": [
+        "$.ordered_writes[9].bytes",
+        "$.ordered_writes[9].file_name"
+      ],
+      "final_action": "api.inspect_effects: {\"file_name\": \"ingest-quotas.conf\"}",
+      "gold": "{\"target\": {\"file_content\": \"onyx-beacon-37\"}, \"namespace\": {\"current_directory_content\": [\"archive\", \"capacity.csv\", \"runbook.md\", \"ingest-shards.conf\", \"ledger-quotas.conf\", \"ingest-quotas.conf\", \"scheduler-shards.conf\", \"ledger-1.logs\", \"registry-2.logs\"]}, \"ordered_writes\": [{\"file_name\": \"ingest-shards.conf\", \"bytes\": 51}, {\"file_name\": \"ledger-quotas.conf\", \"bytes\": 50}, {\"file_name\": \"ingest-quotas.conf\", \"bytes\": 52}, {\"file_name\": \"ingest-shards.conf\", \"bytes\": 14}, {\"file_name\": \"ledger-quotas.conf\", \"bytes\": 16}, {\"file_name\": \"ingest-quotas.conf\", \"bytes\": 14}, {\"file_name\": \"scheduler-shards.conf\", \"bytes\": 81}, {\"file_name\": \"scheduler-shards.conf\", \"bytes\": 23}, {\"file_name\": \"ingest-shards.conf\", \"bytes\": 15}]}",
+      "h_reachback": null,
+      "item_id": "api-radius-L1-r0-GorillaFileSystem-0-radius-L1-precision-1",
+      "missing_claims": [],
+      "model": "Claude Opus 4.8",
+      "operator": "escalate_radius",
+      "prediction": "{\"target\": {\"file_content\": \"onyx-beacon-37\"}, \"namespace\": {\"current_directory_content\": [\"archive\", \"capacity.csv\", \"runbook.md\", \"ingest-shards.conf\", \"ledger-quotas.conf\", \"ingest-quotas.conf\", \"scheduler-shards.conf\", \"ledger-1.logs\", \"registry-2.logs\"]}, \"ordered_writes\": [{\"file_name\": \"ingest-shards.conf\", \"bytes\": 51}, {\"file_name\": \"ledger-quotas.conf\", \"bytes\": 50}, {\"file_name\": \"ingest-quotas.conf\", \"bytes\": 52}, {\"file_name\": \"ingest-shards.conf\", \"bytes\": 14}, {\"file_name\": \"ledger-quotas.conf\", \"bytes\": 16}, {\"file_name\": \"ingest-quotas.conf\", \"bytes\": 14}, {\"file_name\": \"scheduler-shards.conf\", \"bytes\": 81}, {\"file_name\": \"scheduler-shards.conf\", \"bytes\": 23}, {\"file_name\": \"registry-2.logs\", \"bytes\": 98}, {\"file_name\": \"ingest-shards.conf\", \"bytes\": 15}]}",
+      "prompt_chars": 5947,
+      "radius": "L1",
+      "resolution_rule": "deterministic_concrete_contradiction",
+      "sub_evals": [
+        "side_effect_propagation"
+      ]
+    },
+    {
+      "category": "semantic_or_error_surface",
+      "contradictory_claims": [],
+      "deterministic_mode": "error_missing",
+      "domain": "game",
+      "extra_claims": [],
+      "final_action": "game: craft banana",
+      "gold": "banana is full; crafting quota exceeded.",
+      "h_reachback": 11,
+      "item_id": "ar2g-game-quota-recovery-h10-r40014-n0057-quota_enforcement_probe-injected",
+      "missing_claims": [],
+      "model": "Qwen 3.8 Max",
+      "operator": "quota_enforcement_probe",
+      "prediction": "Crafted one charge for banana (2/2).",
+      "prompt_chars": 6542,
+      "radius": "L0",
+      "resolution_rule": "deterministic_concrete_contradiction",
+      "sub_evals": [
+        "quota_enforcement"
+      ]
+    },
+    {
+      "category": "semantic_or_error_surface",
+      "contradictory_claims": [],
+      "deterministic_mode": "mismatch",
+      "domain": "math_and_science",
+      "extra_claims": [],
+      "final_action": "python: (lambda x,a,b: ['radius_state_audit', 17*x**2 + 31*a - 43*b, (x-a)*(a-b), Eq(Mod(x+a,5),Mod(a+b,5)), len(derivation_log), Mod(sum((i+1)**2*(numer(v) + 19*denom(v)) for i,v in enumerate(derivation_log)), 1000003)])(vapor_pressure,shear_stress,heat_capacity)",
+      "gold": "['radius_state_audit', 174987/484, -2025/44, False, 21, 684645]",
+      "h_reachback": null,
+      "item_id": "math-radius-L3-r2-radius-L3-recall-1",
+      "missing_claims": [],
+      "model": "Claude Opus 4.8",
+      "operator": "escalate_radius",
+      "prediction": "['radius_state_audit', 174987/484, -2025/44, False, 21, 260768]",
+      "prompt_chars": 3022,
+      "radius": "L3",
+      "resolution_rule": "primary_semantic_adjudication",
+      "sub_evals": [
+        "side_effect_propagation"
+      ]
+    }
+  ],
+  "failure_anatomy_by_model": {
+    "Claude Fable 5": {
+      "answered_failures": 204,
+      "any_wrong_value": {
+        "n": 44,
+        "pct": 21.57
+      },
+      "categories": {
+        "invention_only": {
+          "n": 11,
+          "pct": 5.39
+        },
+        "omission_only": {
+          "n": 3,
+          "pct": 1.47
+        },
+        "schema_substitution": {
+          "n": 59,
+          "pct": 28.92
+        },
+        "semantic_or_error_surface": {
+          "n": 87,
+          "pct": 42.65
+        },
+        "wrong_value_only": {
+          "n": 27,
+          "pct": 13.24
+        },
+        "wrong_value_plus_structure": {
+          "n": 17,
+          "pct": 8.33
+        }
+      },
+      "failed_decisions": 1513,
+      "no_usable_response": 1309,
+      "no_usable_response_pct_of_failures": 86.52,
+      "purely_structural": {
+        "n": 73,
+        "pct": 35.78
+      }
+    },
+    "Claude Fable 5.1": {
+      "answered_failures": 529,
+      "any_wrong_value": {
+        "n": 222,
+        "pct": 41.97
+      },
+      "categories": {
+        "invention_only": {
+          "n": 19,
+          "pct": 3.59
+        },
+        "omission_only": {
+          "n": 31,
+          "pct": 5.86
+        },
+        "schema_substitution": {
+          "n": 218,
+          "pct": 41.21
+        },
+        "semantic_or_error_surface": {
+          "n": 39,
+          "pct": 7.37
+        },
+        "wrong_value_only": {
+          "n": 103,
+          "pct": 19.47
+        },
+        "wrong_value_plus_structure": {
+          "n": 119,
+          "pct": 22.5
+        }
+      },
+      "failed_decisions": 1279,
+      "no_usable_response": 750,
+      "no_usable_response_pct_of_failures": 58.64,
+      "purely_structural": {
+        "n": 268,
+        "pct": 50.66
+      }
+    },
+    "Claude Opus 4.8": {
+      "answered_failures": 1305,
+      "any_wrong_value": {
+        "n": 717,
+        "pct": 54.94
+      },
+      "categories": {
+        "invention_only": {
+          "n": 2,
+          "pct": 0.15
+        },
+        "omission_only": {
+          "n": 41,
+          "pct": 3.14
+        },
+        "schema_substitution": {
+          "n": 233,
+          "pct": 17.85
+        },
+        "semantic_or_error_surface": {
+          "n": 312,
+          "pct": 23.91
+        },
+        "wrong_value_only": {
+          "n": 246,
+          "pct": 18.85
+        },
+        "wrong_value_plus_structure": {
+          "n": 471,
+          "pct": 36.09
+        }
+      },
+      "failed_decisions": 1305,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 276,
+        "pct": 21.15
+      }
+    },
+    "Claude Opus 5": {
+      "answered_failures": 324,
+      "any_wrong_value": {
+        "n": 116,
+        "pct": 35.8
+      },
+      "categories": {
+        "invention_only": {
+          "n": 2,
+          "pct": 0.62
+        },
+        "omission_only": {
+          "n": 8,
+          "pct": 2.47
+        },
+        "schema_substitution": {
+          "n": 96,
+          "pct": 29.63
+        },
+        "semantic_or_error_surface": {
+          "n": 102,
+          "pct": 31.48
+        },
+        "wrong_value_only": {
+          "n": 72,
+          "pct": 22.22
+        },
+        "wrong_value_plus_structure": {
+          "n": 44,
+          "pct": 13.58
+        }
+      },
+      "failed_decisions": 1372,
+      "no_usable_response": 1048,
+      "no_usable_response_pct_of_failures": 76.38,
+      "purely_structural": {
+        "n": 106,
+        "pct": 32.72
+      }
+    },
+    "Claude Opus 5.5": {
+      "answered_failures": 524,
+      "any_wrong_value": {
+        "n": 181,
+        "pct": 34.54
+      },
+      "categories": {
+        "invention_only": {
+          "n": 34,
+          "pct": 6.49
+        },
+        "omission_only": {
+          "n": 15,
+          "pct": 2.86
+        },
+        "schema_substitution": {
+          "n": 225,
+          "pct": 42.94
+        },
+        "semantic_or_error_surface": {
+          "n": 69,
+          "pct": 13.17
+        },
+        "wrong_value_only": {
+          "n": 64,
+          "pct": 12.21
+        },
+        "wrong_value_plus_structure": {
+          "n": 117,
+          "pct": 22.33
+        }
+      },
+      "failed_decisions": 1202,
+      "no_usable_response": 678,
+      "no_usable_response_pct_of_failures": 56.41,
+      "purely_structural": {
+        "n": 274,
+        "pct": 52.29
+      }
+    },
+    "DWM": {
+      "answered_failures": 1547,
+      "any_wrong_value": {
+        "n": 868,
+        "pct": 56.11
+      },
+      "categories": {
+        "invention_only": {
+          "n": 1,
+          "pct": 0.06
+        },
+        "omission_only": {
+          "n": 7,
+          "pct": 0.45
+        },
+        "schema_substitution": {
+          "n": 188,
+          "pct": 12.15
+        },
+        "semantic_or_error_surface": {
+          "n": 483,
+          "pct": 31.22
+        },
+        "wrong_value_only": {
+          "n": 217,
+          "pct": 14.03
+        },
+        "wrong_value_plus_structure": {
+          "n": 651,
+          "pct": 42.08
+        }
+      },
+      "failed_decisions": 1547,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 196,
+        "pct": 12.67
+      }
+    },
+    "GLM 5.3": {
+      "answered_failures": 1391,
+      "any_wrong_value": {
+        "n": 835,
+        "pct": 60.03
+      },
+      "categories": {
+        "invention_only": {
+          "n": 4,
+          "pct": 0.29
+        },
+        "omission_only": {
+          "n": 35,
+          "pct": 2.52
+        },
+        "schema_substitution": {
+          "n": 231,
+          "pct": 16.61
+        },
+        "semantic_or_error_surface": {
+          "n": 286,
+          "pct": 20.56
+        },
+        "wrong_value_only": {
+          "n": 411,
+          "pct": 29.55
+        },
+        "wrong_value_plus_structure": {
+          "n": 424,
+          "pct": 30.48
+        }
+      },
+      "failed_decisions": 1391,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 270,
+        "pct": 19.41
+      }
+    },
+    "GPT-5.5": {
+      "answered_failures": 1221,
+      "any_wrong_value": {
+        "n": 662,
+        "pct": 54.22
+      },
+      "categories": {
+        "invention_only": {
+          "n": 1,
+          "pct": 0.08
+        },
+        "omission_only": {
+          "n": 150,
+          "pct": 12.29
+        },
+        "schema_substitution": {
+          "n": 230,
+          "pct": 18.84
+        },
+        "semantic_or_error_surface": {
+          "n": 178,
+          "pct": 14.58
+        },
+        "wrong_value_only": {
+          "n": 336,
+          "pct": 27.52
+        },
+        "wrong_value_plus_structure": {
+          "n": 326,
+          "pct": 26.7
+        }
+      },
+      "failed_decisions": 1221,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 381,
+        "pct": 31.2
+      }
+    },
+    "GPT-5.6 Sol": {
+      "answered_failures": 1246,
+      "any_wrong_value": {
+        "n": 669,
+        "pct": 53.69
+      },
+      "categories": {
+        "invention_only": {
+          "n": 2,
+          "pct": 0.16
+        },
+        "omission_only": {
+          "n": 126,
+          "pct": 10.11
+        },
+        "schema_substitution": {
+          "n": 284,
+          "pct": 22.79
+        },
+        "semantic_or_error_surface": {
+          "n": 165,
+          "pct": 13.24
+        },
+        "wrong_value_only": {
+          "n": 434,
+          "pct": 34.83
+        },
+        "wrong_value_plus_structure": {
+          "n": 235,
+          "pct": 18.86
+        }
+      },
+      "failed_decisions": 1246,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 412,
+        "pct": 33.07
+      }
+    },
+    "GPT-6 Astra": {
+      "answered_failures": 823,
+      "any_wrong_value": {
+        "n": 386,
+        "pct": 46.9
+      },
+      "categories": {
+        "invention_only": {
+          "n": 4,
+          "pct": 0.49
+        },
+        "omission_only": {
+          "n": 95,
+          "pct": 11.54
+        },
+        "schema_substitution": {
+          "n": 254,
+          "pct": 30.86
+        },
+        "semantic_or_error_surface": {
+          "n": 84,
+          "pct": 10.21
+        },
+        "wrong_value_only": {
+          "n": 247,
+          "pct": 30.01
+        },
+        "wrong_value_plus_structure": {
+          "n": 139,
+          "pct": 16.89
+        }
+      },
+      "failed_decisions": 823,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 353,
+        "pct": 42.89
+      }
+    },
+    "GPT-6 Luna": {
+      "answered_failures": 1342,
+      "any_wrong_value": {
+        "n": 698,
+        "pct": 52.01
+      },
+      "categories": {
+        "invention_only": {
+          "n": 1,
+          "pct": 0.07
+        },
+        "omission_only": {
+          "n": 43,
+          "pct": 3.2
+        },
+        "schema_substitution": {
+          "n": 182,
+          "pct": 13.56
+        },
+        "semantic_or_error_surface": {
+          "n": 418,
+          "pct": 31.15
+        },
+        "wrong_value_only": {
+          "n": 274,
+          "pct": 20.42
+        },
+        "wrong_value_plus_structure": {
+          "n": 424,
+          "pct": 31.59
+        }
+      },
+      "failed_decisions": 1342,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 226,
+        "pct": 16.84
+      }
+    },
+    "GPT-6 Sol": {
+      "answered_failures": 1224,
+      "any_wrong_value": {
+        "n": 330,
+        "pct": 26.96
+      },
+      "categories": {
+        "invention_only": {
+          "n": 1,
+          "pct": 0.08
+        },
+        "omission_only": {
+          "n": 139,
+          "pct": 11.36
+        },
+        "schema_substitution": {
+          "n": 251,
+          "pct": 20.51
+        },
+        "semantic_or_error_surface": {
+          "n": 503,
+          "pct": 41.09
+        },
+        "wrong_value_only": {
+          "n": 172,
+          "pct": 14.05
+        },
+        "wrong_value_plus_structure": {
+          "n": 158,
+          "pct": 12.91
+        }
+      },
+      "failed_decisions": 1224,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 391,
+        "pct": 31.94
+      }
+    },
+    "Gemini 3.7 Flash": {
+      "answered_failures": 1277,
+      "any_wrong_value": {
+        "n": 647,
+        "pct": 50.67
+      },
+      "categories": {
+        "invention_only": {
+          "n": 2,
+          "pct": 0.16
+        },
+        "omission_only": {
+          "n": 84,
+          "pct": 6.58
+        },
+        "schema_substitution": {
+          "n": 304,
+          "pct": 23.81
+        },
+        "semantic_or_error_surface": {
+          "n": 240,
+          "pct": 18.79
+        },
+        "wrong_value_only": {
+          "n": 336,
+          "pct": 26.31
+        },
+        "wrong_value_plus_structure": {
+          "n": 311,
+          "pct": 24.35
+        }
+      },
+      "failed_decisions": 1277,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 390,
+        "pct": 30.54
+      }
+    },
+    "Grok 4.6": {
+      "answered_failures": 1173,
+      "any_wrong_value": {
+        "n": 665,
+        "pct": 56.69
+      },
+      "categories": {
+        "invention_only": {
+          "n": 2,
+          "pct": 0.17
+        },
+        "omission_only": {
+          "n": 154,
+          "pct": 13.13
+        },
+        "schema_substitution": {
+          "n": 224,
+          "pct": 19.1
+        },
+        "semantic_or_error_surface": {
+          "n": 128,
+          "pct": 10.91
+        },
+        "wrong_value_only": {
+          "n": 348,
+          "pct": 29.67
+        },
+        "wrong_value_plus_structure": {
+          "n": 317,
+          "pct": 27.02
+        }
+      },
+      "failed_decisions": 1173,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 380,
+        "pct": 32.4
+      }
+    },
+    "Inkling": {
+      "answered_failures": 1438,
+      "any_wrong_value": {
+        "n": 732,
+        "pct": 50.9
+      },
+      "categories": {
+        "invention_only": {
+          "n": 1,
+          "pct": 0.07
+        },
+        "omission_only": {
+          "n": 13,
+          "pct": 0.9
+        },
+        "schema_substitution": {
+          "n": 127,
+          "pct": 8.83
+        },
+        "semantic_or_error_surface": {
+          "n": 565,
+          "pct": 39.29
+        },
+        "wrong_value_only": {
+          "n": 118,
+          "pct": 8.21
+        },
+        "wrong_value_plus_structure": {
+          "n": 614,
+          "pct": 42.7
+        }
+      },
+      "failed_decisions": 1438,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 141,
+        "pct": 9.81
+      }
+    },
+    "Kimi K3": {
+      "answered_failures": 1404,
+      "any_wrong_value": {
+        "n": 804,
+        "pct": 57.26
+      },
+      "categories": {
+        "invention_only": {
+          "n": 2,
+          "pct": 0.14
+        },
+        "omission_only": {
+          "n": 68,
+          "pct": 4.84
+        },
+        "schema_substitution": {
+          "n": 213,
+          "pct": 15.17
+        },
+        "semantic_or_error_surface": {
+          "n": 317,
+          "pct": 22.58
+        },
+        "wrong_value_only": {
+          "n": 395,
+          "pct": 28.13
+        },
+        "wrong_value_plus_structure": {
+          "n": 409,
+          "pct": 29.13
+        }
+      },
+      "failed_decisions": 1404,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 283,
+        "pct": 20.16
+      }
+    },
+    "Laguna S2.1": {
+      "answered_failures": 1592,
+      "any_wrong_value": {
+        "n": 887,
+        "pct": 55.72
+      },
+      "categories": {
+        "invention_only": {
+          "n": 1,
+          "pct": 0.06
+        },
+        "omission_only": {
+          "n": 0,
+          "pct": 0.0
+        },
+        "schema_substitution": {
+          "n": 102,
+          "pct": 6.41
+        },
+        "semantic_or_error_surface": {
+          "n": 602,
+          "pct": 37.81
+        },
+        "wrong_value_only": {
+          "n": 199,
+          "pct": 12.5
+        },
+        "wrong_value_plus_structure": {
+          "n": 688,
+          "pct": 43.22
+        }
+      },
+      "failed_decisions": 1592,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 103,
+        "pct": 6.47
+      }
+    },
+    "Qwen 3.8 Flash Next": {
+      "answered_failures": 1252,
+      "any_wrong_value": {
+        "n": 810,
+        "pct": 64.7
+      },
+      "categories": {
+        "invention_only": {
+          "n": 2,
+          "pct": 0.16
+        },
+        "omission_only": {
+          "n": 29,
+          "pct": 2.32
+        },
+        "schema_substitution": {
+          "n": 227,
+          "pct": 18.13
+        },
+        "semantic_or_error_surface": {
+          "n": 184,
+          "pct": 14.7
+        },
+        "wrong_value_only": {
+          "n": 357,
+          "pct": 28.51
+        },
+        "wrong_value_plus_structure": {
+          "n": 453,
+          "pct": 36.18
+        }
+      },
+      "failed_decisions": 1253,
+      "no_usable_response": 1,
+      "no_usable_response_pct_of_failures": 0.08,
+      "purely_structural": {
+        "n": 258,
+        "pct": 20.61
+      }
+    },
+    "Qwen 3.8 Max": {
+      "answered_failures": 1219,
+      "any_wrong_value": {
+        "n": 762,
+        "pct": 62.51
+      },
+      "categories": {
+        "invention_only": {
+          "n": 5,
+          "pct": 0.41
+        },
+        "omission_only": {
+          "n": 71,
+          "pct": 5.82
+        },
+        "schema_substitution": {
+          "n": 219,
+          "pct": 17.97
+        },
+        "semantic_or_error_surface": {
+          "n": 162,
+          "pct": 13.29
+        },
+        "wrong_value_only": {
+          "n": 391,
+          "pct": 32.08
+        },
+        "wrong_value_plus_structure": {
+          "n": 371,
+          "pct": 30.43
+        }
+      },
+      "failed_decisions": 1219,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 295,
+        "pct": 24.2
+      }
+    },
+    "Qwen-AgentWorld-35B-A3B": {
+      "answered_failures": 1396,
+      "any_wrong_value": {
+        "n": 900,
+        "pct": 64.47
+      },
+      "categories": {
+        "invention_only": {
+          "n": 1,
+          "pct": 0.07
+        },
+        "omission_only": {
+          "n": 19,
+          "pct": 1.36
+        },
+        "schema_substitution": {
+          "n": 53,
+          "pct": 3.8
+        },
+        "semantic_or_error_surface": {
+          "n": 423,
+          "pct": 30.3
+        },
+        "wrong_value_only": {
+          "n": 297,
+          "pct": 21.28
+        },
+        "wrong_value_plus_structure": {
+          "n": 603,
+          "pct": 43.19
+        }
+      },
+      "failed_decisions": 1396,
+      "no_usable_response": 0,
+      "no_usable_response_pct_of_failures": 0.0,
+      "purely_structural": {
+        "n": 73,
+        "pct": 5.23
+      }
+    }
+  },
+  "general_model_failure_anatomy": {
+    "answered_failures": 19488,
+    "any_wrong_value": {
+      "n": 10167,
+      "pct": 52.17
+    },
+    "categories": {
+      "invention_only": {
+        "n": 96,
+        "pct": 0.49
+      },
+      "omission_only": {
+        "n": 1105,
+        "pct": 5.67
+      },
+      "schema_substitution": {
+        "n": 3679,
+        "pct": 18.88
+      },
+      "semantic_or_error_surface": {
+        "n": 4441,
+        "pct": 22.79
+      },
+      "wrong_value_only": {
+        "n": 4530,
+        "pct": 23.25
+      },
+      "wrong_value_plus_structure": {
+        "n": 5637,
+        "pct": 28.93
+      }
+    },
+    "failed_decisions": 23274,
+    "no_usable_response": 3786,
+    "no_usable_response_pct_of_failures": 16.27,
+    "purely_structural": {
+      "n": 4880,
+      "pct": 25.04
+    }
+  },
+  "interpretation_notes": [
+    "Counts are model-item decisions, not unique trajectories.",
+    "A decision without a usable response (provider refusal, empty or errored completion) is a failure and stays in every denominator; it forms its own bucket and is excluded from the category shares.",
+    "Anatomy categories are mutually exclusive diagnostics derived from deterministic claim paths; category shares are over answered failures.",
+    "semantic_or_error_surface includes LLM-adjudicated natural-language cases and explicit error-surface mismatches without structured paths.",
+    "Skill slices are any-label and overlap; primary-skill slices partition the items.",
+    "Field-frequency counts measure presence per failed row, not the number of wrong array cells.",
+    "Axis associations are descriptive; item families are not held constant.",
+    "Output evidence supports behavioral descriptions, not claims about hidden model reasoning.",
+    "Percentages are rounded half-up to two decimals."
+  ],
+  "item_difficulty": {
+    "hardest_items": [
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 604,
+        "item_id": "advconfirm-shell-s3600010-injected",
+        "no_response": 4,
+        "operator": "adversarial_confirmation_evidence_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "sycophantic_confirmation",
+          "contradiction_detection",
+          "context_fabrication",
+          "content_repetition",
+          "rule_enforcement",
+          "replay_determinism",
+          "temporal_ordering"
+        ]
+      },
+      {
+        "domain": "enterprise",
+        "fail": 20,
+        "h_reachback": 720,
+        "item_id": "aldag5-api-s15020001-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "enterprise",
+        "fail": 20,
+        "h_reachback": 960,
+        "item_id": "aldag5-api-s15120001-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "enterprise",
+        "fail": 20,
+        "h_reachback": 1200,
+        "item_id": "aldag5-api-s15220000-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "enterprise",
+        "fail": 20,
+        "h_reachback": 1200,
+        "item_id": "aldag5-api-s15220001-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "enterprise",
+        "fail": 20,
+        "h_reachback": 1680,
+        "item_id": "aldag5-api-s15420002-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 720,
+        "item_id": "aldag5-db-s15010000-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 720,
+        "item_id": "aldag5-db-s15010001-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 720,
+        "item_id": "aldag5-db-s15010003-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 960,
+        "item_id": "aldag5-db-s15110001-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 960,
+        "item_id": "aldag5-db-s15110003-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 1440,
+        "item_id": "aldag5-db-s15310001-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 1440,
+        "item_id": "aldag5-db-s15310002-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "code",
+        "fail": 20,
+        "h_reachback": 1440,
+        "item_id": "aldag5-db-s15310003-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "dialogue",
+        "fail": 20,
+        "h_reachback": 1200,
+        "item_id": "aldag5-dialogue-s13430000-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "dialogue",
+        "fail": 20,
+        "h_reachback": 720,
+        "item_id": "aldag5-dialogue-s15030003-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "dialogue",
+        "fail": 20,
+        "h_reachback": 960,
+        "item_id": "aldag5-dialogue-s15130000-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "dialogue",
+        "fail": 20,
+        "h_reachback": 1440,
+        "item_id": "aldag5-dialogue-s15330003-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "dialogue",
+        "fail": 20,
+        "h_reachback": 1680,
+        "item_id": "aldag5-dialogue-s15430003-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      },
+      {
+        "domain": "game",
+        "fail": 20,
+        "h_reachback": 720,
+        "item_id": "aldag5-game-s15050002-injected",
+        "no_response": 4,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pass": 0,
+        "radius_level": "L3",
+        "sub_evals": [
+          "access_control",
+          "transition_correctness",
+          "side_effect_propagation",
+          "temporal_ordering",
+          "replay_determinism",
+          "computational_accuracy",
+          "rule_enforcement",
+          "format_stability"
+        ]
+      }
+    ],
+    "items_solved_by_any_other_model": 802,
+    "leader": "GPT-6 Astra",
+    "leader_passes": 809,
+    "models": 20,
+    "oracle_best_model_per_item_pct": 61.34,
+    "pass_count_histogram": {
+      "0": 631,
+      "1": 274,
+      "10": 70,
+      "11": 70,
+      "12": 42,
+      "13": 24,
+      "14": 23,
+      "15": 21,
+      "16": 17,
+      "17": 11,
+      "18": 12,
+      "19": 17,
+      "2": 88,
+      "20": 4,
+      "3": 61,
+      "4": 43,
+      "5": 39,
+      "6": 39,
+      "7": 42,
+      "8": 42,
+      "9": 62
+    },
+    "solved_by_all_models": 4,
+    "solved_by_at_least_one_model": 1001,
+    "solved_by_no_model": 631,
+    "universal_fail_operators": [
+      {
+        "n": 86,
+        "operator": "counterfactual_evidence_resolution_audit",
+        "pct": 13.63
+      },
+      {
+        "n": 85,
+        "operator": "counterfactual_schema_registry_audit",
+        "pct": 13.47
+      },
+      {
+        "n": 67,
+        "operator": "adversarial_confirmation_evidence_audit",
+        "pct": 10.62
+      },
+      {
+        "n": 60,
+        "operator": "counterfactual_dependency_dag_audit",
+        "pct": 9.51
+      },
+      {
+        "n": 41,
+        "operator": "transactional_schema_batch_reconciliation",
+        "pct": 6.5
+      },
+      {
+        "n": 39,
+        "operator": "authorized_lifecycle_dependency_dag_audit",
+        "pct": 6.18
+      },
+      {
+        "n": 36,
+        "operator": "dynamic_dependency_dag_audit",
+        "pct": 5.71
+      },
+      {
+        "n": 36,
+        "operator": "cross_file_build_config_test_reconciliation",
+        "pct": 5.71
+      },
+      {
+        "n": 33,
+        "operator": "event_sourced_branch_merge_reconciliation_v2",
+        "pct": 5.23
+      },
+      {
+        "n": 29,
+        "operator": "format_stability_probe",
+        "pct": 4.6
+      },
+      {
+        "n": 25,
+        "operator": "counterfactual_hierarchical_quota_audit",
+        "pct": 3.96
+      },
+      {
+        "n": 19,
+        "operator": "authorized_lifecycle_quorum_batch_audit",
+        "pct": 3.01
+      },
+      {
+        "n": 19,
+        "operator": "authorized_lifecycle_denial_precedence_dag_audit",
+        "pct": 3.01
+      },
+      {
+        "n": 10,
+        "operator": "counterfactual_multiresource_quota_audit",
+        "pct": 1.58
+      },
+      {
+        "n": 6,
+        "operator": "atomic_lifecycle_transition_frontier_audit",
+        "pct": 0.95
+      },
+      {
+        "n": 6,
+        "operator": "access_control_probe",
+        "pct": 0.95
+      },
+      {
+        "n": 6,
+        "operator": "entity_delete_then_use",
+        "pct": 0.95
+      },
+      {
+        "n": 4,
+        "operator": "dialogue_adversarial_authority_graph_audit",
+        "pct": 0.63
+      },
+      {
+        "n": 3,
+        "operator": "mvcc_isolation_conflict_audit",
+        "pct": 0.48
+      },
+      {
+        "n": 3,
+        "operator": "event_sourced_branch_merge_reconciliation",
+        "pct": 0.48
+      }
+    ]
+  },
+  "pairwise_pass_complementarity": {
+    "Claude Fable 5 vs DWM": {
+      "both_fail": 1457,
+      "both_pass": 29,
+      "left_only": 90,
+      "right_only": 56
+    },
+    "Claude Fable 5 vs Laguna S2.1": {
+      "both_fail": 1490,
+      "both_pass": 17,
+      "left_only": 102,
+      "right_only": 23
+    },
+    "Claude Fable 5.1 vs Claude Fable 5": {
+      "both_fail": 1265,
+      "both_pass": 105,
+      "left_only": 248,
+      "right_only": 14
+    },
+    "Claude Fable 5.1 vs Claude Opus 4.8": {
+      "both_fail": 1084,
+      "both_pass": 132,
+      "left_only": 221,
+      "right_only": 195
+    },
+    "Claude Fable 5.1 vs Claude Opus 5": {
+      "both_fail": 1213,
+      "both_pass": 194,
+      "left_only": 159,
+      "right_only": 66
+    },
+    "Claude Fable 5.1 vs DWM": {
+      "both_fail": 1260,
+      "both_pass": 66,
+      "left_only": 287,
+      "right_only": 19
+    },
+    "Claude Fable 5.1 vs GLM 5.3": {
+      "both_fail": 1176,
+      "both_pass": 138,
+      "left_only": 215,
+      "right_only": 103
+    },
+    "Claude Fable 5.1 vs GPT-6 Luna": {
+      "both_fail": 1153,
+      "both_pass": 164,
+      "left_only": 189,
+      "right_only": 126
+    },
+    "Claude Fable 5.1 vs Inkling": {
+      "both_fail": 1196,
+      "both_pass": 111,
+      "left_only": 242,
+      "right_only": 83
+    },
+    "Claude Fable 5.1 vs Kimi K3": {
+      "both_fail": 1152,
+      "both_pass": 101,
+      "left_only": 252,
+      "right_only": 127
+    },
+    "Claude Fable 5.1 vs Laguna S2.1": {
+      "both_fail": 1266,
+      "both_pass": 27,
+      "left_only": 326,
+      "right_only": 13
+    },
+    "Claude Fable 5.1 vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1157,
+      "both_pass": 114,
+      "left_only": 239,
+      "right_only": 122
+    },
+    "Claude Opus 4.8 vs Claude Fable 5": {
+      "both_fail": 1255,
+      "both_pass": 69,
+      "left_only": 258,
+      "right_only": 50
+    },
+    "Claude Opus 4.8 vs Claude Opus 5": {
+      "both_fail": 1189,
+      "both_pass": 144,
+      "left_only": 183,
+      "right_only": 116
+    },
+    "Claude Opus 4.8 vs DWM": {
+      "both_fail": 1269,
+      "both_pass": 49,
+      "left_only": 278,
+      "right_only": 36
+    },
+    "Claude Opus 4.8 vs GLM 5.3": {
+      "both_fail": 1216,
+      "both_pass": 152,
+      "left_only": 175,
+      "right_only": 89
+    },
+    "Claude Opus 4.8 vs GPT-6 Luna": {
+      "both_fail": 1187,
+      "both_pass": 172,
+      "left_only": 155,
+      "right_only": 118
+    },
+    "Claude Opus 4.8 vs Inkling": {
+      "both_fail": 1222,
+      "both_pass": 111,
+      "left_only": 216,
+      "right_only": 83
+    },
+    "Claude Opus 4.8 vs Kimi K3": {
+      "both_fail": 1238,
+      "both_pass": 161,
+      "left_only": 166,
+      "right_only": 67
+    },
+    "Claude Opus 4.8 vs Laguna S2.1": {
+      "both_fail": 1299,
+      "both_pass": 34,
+      "left_only": 293,
+      "right_only": 6
+    },
+    "Claude Opus 4.8 vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1256,
+      "both_pass": 187,
+      "left_only": 140,
+      "right_only": 49
+    },
+    "Claude Opus 5 vs Claude Fable 5": {
+      "both_fail": 1336,
+      "both_pass": 83,
+      "left_only": 177,
+      "right_only": 36
+    },
+    "Claude Opus 5 vs DWM": {
+      "both_fail": 1340,
+      "both_pass": 53,
+      "left_only": 207,
+      "right_only": 32
+    },
+    "Claude Opus 5 vs GLM 5.3": {
+      "both_fail": 1238,
+      "both_pass": 107,
+      "left_only": 153,
+      "right_only": 134
+    },
+    "Claude Opus 5 vs Inkling": {
+      "both_fail": 1267,
+      "both_pass": 89,
+      "left_only": 171,
+      "right_only": 105
+    },
+    "Claude Opus 5 vs Kimi K3": {
+      "both_fail": 1233,
+      "both_pass": 89,
+      "left_only": 171,
+      "right_only": 139
+    },
+    "Claude Opus 5 vs Laguna S2.1": {
+      "both_fail": 1357,
+      "both_pass": 25,
+      "left_only": 235,
+      "right_only": 15
+    },
+    "Claude Opus 5 vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1242,
+      "both_pass": 106,
+      "left_only": 154,
+      "right_only": 130
+    },
+    "Claude Opus 5.5 vs Claude Fable 5": {
+      "both_fail": 1190,
+      "both_pass": 107,
+      "left_only": 323,
+      "right_only": 12
+    },
+    "Claude Opus 5.5 vs Claude Fable 5.1": {
+      "both_fail": 1116,
+      "both_pass": 267,
+      "left_only": 163,
+      "right_only": 86
+    },
+    "Claude Opus 5.5 vs Claude Opus 4.8": {
+      "both_fail": 1066,
+      "both_pass": 191,
+      "left_only": 239,
+      "right_only": 136
+    },
+    "Claude Opus 5.5 vs Claude Opus 5": {
+      "both_fail": 1148,
+      "both_pass": 206,
+      "left_only": 224,
+      "right_only": 54
+    },
+    "Claude Opus 5.5 vs DWM": {
+      "both_fail": 1189,
+      "both_pass": 72,
+      "left_only": 358,
+      "right_only": 13
+    },
+    "Claude Opus 5.5 vs GLM 5.3": {
+      "both_fail": 1134,
+      "both_pass": 173,
+      "left_only": 257,
+      "right_only": 68
+    },
+    "Claude Opus 5.5 vs GPT-5.5": {
+      "both_fail": 1019,
+      "both_pass": 228,
+      "left_only": 202,
+      "right_only": 183
+    },
+    "Claude Opus 5.5 vs GPT-5.6 Sol": {
+      "both_fail": 1038,
+      "both_pass": 222,
+      "left_only": 208,
+      "right_only": 164
+    },
+    "Claude Opus 5.5 vs GPT-6 Luna": {
+      "both_fail": 1100,
+      "both_pass": 188,
+      "left_only": 242,
+      "right_only": 102
+    },
+    "Claude Opus 5.5 vs GPT-6 Sol": {
+      "both_fail": 1029,
+      "both_pass": 235,
+      "left_only": 195,
+      "right_only": 173
+    },
+    "Claude Opus 5.5 vs Gemini 3.7 Flash": {
+      "both_fail": 1043,
+      "both_pass": 196,
+      "left_only": 234,
+      "right_only": 159
+    },
+    "Claude Opus 5.5 vs Inkling": {
+      "both_fail": 1137,
+      "both_pass": 129,
+      "left_only": 301,
+      "right_only": 65
+    },
+    "Claude Opus 5.5 vs Kimi K3": {
+      "both_fail": 1121,
+      "both_pass": 147,
+      "left_only": 283,
+      "right_only": 81
+    },
+    "Claude Opus 5.5 vs Laguna S2.1": {
+      "both_fail": 1196,
+      "both_pass": 34,
+      "left_only": 396,
+      "right_only": 6
+    },
+    "Claude Opus 5.5 vs Qwen 3.8 Flash Next": {
+      "both_fail": 1062,
+      "both_pass": 239,
+      "left_only": 191,
+      "right_only": 140
+    },
+    "Claude Opus 5.5 vs Qwen 3.8 Max": {
+      "both_fail": 1026,
+      "both_pass": 237,
+      "left_only": 193,
+      "right_only": 176
+    },
+    "Claude Opus 5.5 vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1111,
+      "both_pass": 145,
+      "left_only": 285,
+      "right_only": 91
+    },
+    "DWM vs Laguna S2.1": {
+      "both_fail": 1528,
+      "both_pass": 21,
+      "left_only": 64,
+      "right_only": 19
+    },
+    "GLM 5.3 vs Claude Fable 5": {
+      "both_fail": 1335,
+      "both_pass": 63,
+      "left_only": 178,
+      "right_only": 56
+    },
+    "GLM 5.3 vs DWM": {
+      "both_fail": 1377,
+      "both_pass": 71,
+      "left_only": 170,
+      "right_only": 14
+    },
+    "GLM 5.3 vs Inkling": {
+      "both_fail": 1323,
+      "both_pass": 126,
+      "left_only": 115,
+      "right_only": 68
+    },
+    "GLM 5.3 vs Kimi K3": {
+      "both_fail": 1295,
+      "both_pass": 132,
+      "left_only": 109,
+      "right_only": 96
+    },
+    "GLM 5.3 vs Laguna S2.1": {
+      "both_fail": 1385,
+      "both_pass": 34,
+      "left_only": 207,
+      "right_only": 6
+    },
+    "GLM 5.3 vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1291,
+      "both_pass": 136,
+      "left_only": 105,
+      "right_only": 100
+    },
+    "GPT-5.5 vs Claude Fable 5": {
+      "both_fail": 1175,
+      "both_pass": 73,
+      "left_only": 338,
+      "right_only": 46
+    },
+    "GPT-5.5 vs Claude Fable 5.1": {
+      "both_fail": 1038,
+      "both_pass": 170,
+      "left_only": 241,
+      "right_only": 183
+    },
+    "GPT-5.5 vs Claude Opus 4.8": {
+      "both_fail": 1138,
+      "both_pass": 244,
+      "left_only": 167,
+      "right_only": 83
+    },
+    "GPT-5.5 vs Claude Opus 5": {
+      "both_fail": 1133,
+      "both_pass": 172,
+      "left_only": 239,
+      "right_only": 88
+    },
+    "GPT-5.5 vs DWM": {
+      "both_fail": 1195,
+      "both_pass": 59,
+      "left_only": 352,
+      "right_only": 26
+    },
+    "GPT-5.5 vs GLM 5.3": {
+      "both_fail": 1134,
+      "both_pass": 154,
+      "left_only": 257,
+      "right_only": 87
+    },
+    "GPT-5.5 vs GPT-5.6 Sol": {
+      "both_fail": 1133,
+      "both_pass": 298,
+      "left_only": 113,
+      "right_only": 88
+    },
+    "GPT-5.5 vs GPT-6 Luna": {
+      "both_fail": 1139,
+      "both_pass": 208,
+      "left_only": 203,
+      "right_only": 82
+    },
+    "GPT-5.5 vs GPT-6 Sol": {
+      "both_fail": 1116,
+      "both_pass": 303,
+      "left_only": 108,
+      "right_only": 105
+    },
+    "GPT-5.5 vs Gemini 3.7 Flash": {
+      "both_fail": 1142,
+      "both_pass": 276,
+      "left_only": 135,
+      "right_only": 79
+    },
+    "GPT-5.5 vs Inkling": {
+      "both_fail": 1157,
+      "both_pass": 130,
+      "left_only": 281,
+      "right_only": 64
+    },
+    "GPT-5.5 vs Kimi K3": {
+      "both_fail": 1151,
+      "both_pass": 158,
+      "left_only": 253,
+      "right_only": 70
+    },
+    "GPT-5.5 vs Laguna S2.1": {
+      "both_fail": 1215,
+      "both_pass": 34,
+      "left_only": 377,
+      "right_only": 6
+    },
+    "GPT-5.5 vs Qwen 3.8 Flash Next": {
+      "both_fail": 1102,
+      "both_pass": 260,
+      "left_only": 151,
+      "right_only": 119
+    },
+    "GPT-5.5 vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1167,
+      "both_pass": 182,
+      "left_only": 229,
+      "right_only": 54
+    },
+    "GPT-5.6 Sol vs Claude Fable 5": {
+      "both_fail": 1198,
+      "both_pass": 71,
+      "left_only": 315,
+      "right_only": 48
+    },
+    "GPT-5.6 Sol vs Claude Fable 5.1": {
+      "both_fail": 1067,
+      "both_pass": 174,
+      "left_only": 212,
+      "right_only": 179
+    },
+    "GPT-5.6 Sol vs Claude Opus 4.8": {
+      "both_fail": 1165,
+      "both_pass": 246,
+      "left_only": 140,
+      "right_only": 81
+    },
+    "GPT-5.6 Sol vs Claude Opus 5": {
+      "both_fail": 1160,
+      "both_pass": 174,
+      "left_only": 212,
+      "right_only": 86
+    },
+    "GPT-5.6 Sol vs DWM": {
+      "both_fail": 1211,
+      "both_pass": 50,
+      "left_only": 336,
+      "right_only": 35
+    },
+    "GPT-5.6 Sol vs GLM 5.3": {
+      "both_fail": 1145,
+      "both_pass": 140,
+      "left_only": 246,
+      "right_only": 101
+    },
+    "GPT-5.6 Sol vs GPT-6 Luna": {
+      "both_fail": 1157,
+      "both_pass": 201,
+      "left_only": 185,
+      "right_only": 89
+    },
+    "GPT-5.6 Sol vs Gemini 3.7 Flash": {
+      "both_fail": 1156,
+      "both_pass": 265,
+      "left_only": 121,
+      "right_only": 90
+    },
+    "GPT-5.6 Sol vs Inkling": {
+      "both_fail": 1169,
+      "both_pass": 117,
+      "left_only": 269,
+      "right_only": 77
+    },
+    "GPT-5.6 Sol vs Kimi K3": {
+      "both_fail": 1167,
+      "both_pass": 149,
+      "left_only": 237,
+      "right_only": 79
+    },
+    "GPT-5.6 Sol vs Laguna S2.1": {
+      "both_fail": 1242,
+      "both_pass": 36,
+      "left_only": 350,
+      "right_only": 4
+    },
+    "GPT-5.6 Sol vs Qwen 3.8 Flash Next": {
+      "both_fail": 1132,
+      "both_pass": 265,
+      "left_only": 121,
+      "right_only": 114
+    },
+    "GPT-5.6 Sol vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1202,
+      "both_pass": 192,
+      "left_only": 194,
+      "right_only": 44
+    },
+    "GPT-6 Astra vs Claude Fable 5": {
+      "both_fail": 800,
+      "both_pass": 96,
+      "left_only": 713,
+      "right_only": 23
+    },
+    "GPT-6 Astra vs Claude Fable 5.1": {
+      "both_fail": 744,
+      "both_pass": 274,
+      "left_only": 535,
+      "right_only": 79
+    },
+    "GPT-6 Astra vs Claude Opus 4.8": {
+      "both_fail": 793,
+      "both_pass": 297,
+      "left_only": 512,
+      "right_only": 30
+    },
+    "GPT-6 Astra vs Claude Opus 5": {
+      "both_fail": 786,
+      "both_pass": 223,
+      "left_only": 586,
+      "right_only": 37
+    },
+    "GPT-6 Astra vs Claude Opus 5.5": {
+      "both_fail": 744,
+      "both_pass": 351,
+      "left_only": 458,
+      "right_only": 79
+    },
+    "GPT-6 Astra vs DWM": {
+      "both_fail": 815,
+      "both_pass": 77,
+      "left_only": 732,
+      "right_only": 8
+    },
+    "GPT-6 Astra vs GLM 5.3": {
+      "both_fail": 793,
+      "both_pass": 211,
+      "left_only": 598,
+      "right_only": 30
+    },
+    "GPT-6 Astra vs GPT-5.5": {
+      "both_fail": 793,
+      "both_pass": 381,
+      "left_only": 428,
+      "right_only": 30
+    },
+    "GPT-6 Astra vs GPT-5.6 Sol": {
+      "both_fail": 787,
+      "both_pass": 350,
+      "left_only": 459,
+      "right_only": 36
+    },
+    "GPT-6 Astra vs GPT-6 Luna": {
+      "both_fail": 799,
+      "both_pass": 266,
+      "left_only": 543,
+      "right_only": 24
+    },
+    "GPT-6 Astra vs GPT-6 Sol": {
+      "both_fail": 783,
+      "both_pass": 368,
+      "left_only": 441,
+      "right_only": 40
+    },
+    "GPT-6 Astra vs Gemini 3.7 Flash": {
+      "both_fail": 791,
+      "both_pass": 323,
+      "left_only": 486,
+      "right_only": 32
+    },
+    "GPT-6 Astra vs Grok 4.6": {
+      "both_fail": 784,
+      "both_pass": 420,
+      "left_only": 389,
+      "right_only": 39
+    },
+    "GPT-6 Astra vs Inkling": {
+      "both_fail": 797,
+      "both_pass": 168,
+      "left_only": 641,
+      "right_only": 26
+    },
+    "GPT-6 Astra vs Kimi K3": {
+      "both_fail": 794,
+      "both_pass": 199,
+      "left_only": 610,
+      "right_only": 29
+    },
+    "GPT-6 Astra vs Laguna S2.1": {
+      "both_fail": 822,
+      "both_pass": 39,
+      "left_only": 770,
+      "right_only": 1
+    },
+    "GPT-6 Astra vs Qwen 3.8 Flash Next": {
+      "both_fail": 778,
+      "both_pass": 334,
+      "left_only": 475,
+      "right_only": 45
+    },
+    "GPT-6 Astra vs Qwen 3.8 Max": {
+      "both_fail": 766,
+      "both_pass": 356,
+      "left_only": 453,
+      "right_only": 57
+    },
+    "GPT-6 Astra vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 808,
+      "both_pass": 221,
+      "left_only": 588,
+      "right_only": 15
+    },
+    "GPT-6 Luna vs Claude Fable 5": {
+      "both_fail": 1296,
+      "both_pass": 73,
+      "left_only": 217,
+      "right_only": 46
+    },
+    "GPT-6 Luna vs Claude Opus 5": {
+      "both_fail": 1235,
+      "both_pass": 153,
+      "left_only": 137,
+      "right_only": 107
+    },
+    "GPT-6 Luna vs DWM": {
+      "both_fail": 1327,
+      "both_pass": 70,
+      "left_only": 220,
+      "right_only": 15
+    },
+    "GPT-6 Luna vs GLM 5.3": {
+      "both_fail": 1259,
+      "both_pass": 158,
+      "left_only": 132,
+      "right_only": 83
+    },
+    "GPT-6 Luna vs Inkling": {
+      "both_fail": 1298,
+      "both_pass": 150,
+      "left_only": 140,
+      "right_only": 44
+    },
+    "GPT-6 Luna vs Kimi K3": {
+      "both_fail": 1239,
+      "both_pass": 125,
+      "left_only": 165,
+      "right_only": 103
+    },
+    "GPT-6 Luna vs Laguna S2.1": {
+      "both_fail": 1336,
+      "both_pass": 34,
+      "left_only": 256,
+      "right_only": 6
+    },
+    "GPT-6 Luna vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1262,
+      "both_pass": 156,
+      "left_only": 134,
+      "right_only": 80
+    },
+    "GPT-6 Sol vs Claude Fable 5": {
+      "both_fail": 1178,
+      "both_pass": 73,
+      "left_only": 335,
+      "right_only": 46
+    },
+    "GPT-6 Sol vs Claude Fable 5.1": {
+      "both_fail": 1060,
+      "both_pass": 189,
+      "left_only": 219,
+      "right_only": 164
+    },
+    "GPT-6 Sol vs Claude Opus 4.8": {
+      "both_fail": 1149,
+      "both_pass": 252,
+      "left_only": 156,
+      "right_only": 75
+    },
+    "GPT-6 Sol vs Claude Opus 5": {
+      "both_fail": 1143,
+      "both_pass": 179,
+      "left_only": 229,
+      "right_only": 81
+    },
+    "GPT-6 Sol vs DWM": {
+      "both_fail": 1191,
+      "both_pass": 52,
+      "left_only": 356,
+      "right_only": 33
+    },
+    "GPT-6 Sol vs GLM 5.3": {
+      "both_fail": 1129,
+      "both_pass": 146,
+      "left_only": 262,
+      "right_only": 95
+    },
+    "GPT-6 Sol vs GPT-5.6 Sol": {
+      "both_fail": 1137,
+      "both_pass": 299,
+      "left_only": 109,
+      "right_only": 87
+    },
+    "GPT-6 Sol vs GPT-6 Luna": {
+      "both_fail": 1141,
+      "both_pass": 207,
+      "left_only": 201,
+      "right_only": 83
+    },
+    "GPT-6 Sol vs Gemini 3.7 Flash": {
+      "both_fail": 1145,
+      "both_pass": 276,
+      "left_only": 132,
+      "right_only": 79
+    },
+    "GPT-6 Sol vs Inkling": {
+      "both_fail": 1157,
+      "both_pass": 127,
+      "left_only": 281,
+      "right_only": 67
+    },
+    "GPT-6 Sol vs Kimi K3": {
+      "both_fail": 1151,
+      "both_pass": 155,
+      "left_only": 253,
+      "right_only": 73
+    },
+    "GPT-6 Sol vs Laguna S2.1": {
+      "both_fail": 1223,
+      "both_pass": 39,
+      "left_only": 369,
+      "right_only": 1
+    },
+    "GPT-6 Sol vs Qwen 3.8 Flash Next": {
+      "both_fail": 1109,
+      "both_pass": 264,
+      "left_only": 144,
+      "right_only": 115
+    },
+    "GPT-6 Sol vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1182,
+      "both_pass": 194,
+      "left_only": 214,
+      "right_only": 42
+    },
+    "Gemini 3.7 Flash vs Claude Fable 5": {
+      "both_fail": 1222,
+      "both_pass": 64,
+      "left_only": 291,
+      "right_only": 55
+    },
+    "Gemini 3.7 Flash vs Claude Fable 5.1": {
+      "both_fail": 1069,
+      "both_pass": 145,
+      "left_only": 210,
+      "right_only": 208
+    },
+    "Gemini 3.7 Flash vs Claude Opus 4.8": {
+      "both_fail": 1175,
+      "both_pass": 225,
+      "left_only": 130,
+      "right_only": 102
+    },
+    "Gemini 3.7 Flash vs Claude Opus 5": {
+      "both_fail": 1159,
+      "both_pass": 142,
+      "left_only": 213,
+      "right_only": 118
+    },
+    "Gemini 3.7 Flash vs DWM": {
+      "both_fail": 1241,
+      "both_pass": 49,
+      "left_only": 306,
+      "right_only": 36
+    },
+    "Gemini 3.7 Flash vs GLM 5.3": {
+      "both_fail": 1166,
+      "both_pass": 130,
+      "left_only": 225,
+      "right_only": 111
+    },
+    "Gemini 3.7 Flash vs GPT-6 Luna": {
+      "both_fail": 1162,
+      "both_pass": 175,
+      "left_only": 180,
+      "right_only": 115
+    },
+    "Gemini 3.7 Flash vs Inkling": {
+      "both_fail": 1194,
+      "both_pass": 111,
+      "left_only": 244,
+      "right_only": 83
+    },
+    "Gemini 3.7 Flash vs Kimi K3": {
+      "both_fail": 1207,
+      "both_pass": 158,
+      "left_only": 197,
+      "right_only": 70
+    },
+    "Gemini 3.7 Flash vs Laguna S2.1": {
+      "both_fail": 1276,
+      "both_pass": 39,
+      "left_only": 316,
+      "right_only": 1
+    },
+    "Gemini 3.7 Flash vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1220,
+      "both_pass": 179,
+      "left_only": 176,
+      "right_only": 57
+    },
+    "Grok 4.6 vs Claude Fable 5": {
+      "both_fail": 1137,
+      "both_pass": 83,
+      "left_only": 376,
+      "right_only": 36
+    },
+    "Grok 4.6 vs Claude Fable 5.1": {
+      "both_fail": 1038,
+      "both_pass": 218,
+      "left_only": 241,
+      "right_only": 135
+    },
+    "Grok 4.6 vs Claude Opus 4.8": {
+      "both_fail": 1100,
+      "both_pass": 254,
+      "left_only": 205,
+      "right_only": 73
+    },
+    "Grok 4.6 vs Claude Opus 5": {
+      "both_fail": 1115,
+      "both_pass": 202,
+      "left_only": 257,
+      "right_only": 58
+    },
+    "Grok 4.6 vs Claude Opus 5.5": {
+      "both_fail": 1030,
+      "both_pass": 287,
+      "left_only": 172,
+      "right_only": 143
+    },
+    "Grok 4.6 vs DWM": {
+      "both_fail": 1160,
+      "both_pass": 72,
+      "left_only": 387,
+      "right_only": 13
+    },
+    "Grok 4.6 vs GLM 5.3": {
+      "both_fail": 1110,
+      "both_pass": 178,
+      "left_only": 281,
+      "right_only": 63
+    },
+    "Grok 4.6 vs GPT-5.5": {
+      "both_fail": 1107,
+      "both_pass": 345,
+      "left_only": 114,
+      "right_only": 66
+    },
+    "Grok 4.6 vs GPT-5.6 Sol": {
+      "both_fail": 1112,
+      "both_pass": 325,
+      "left_only": 134,
+      "right_only": 61
+    },
+    "Grok 4.6 vs GPT-6 Luna": {
+      "both_fail": 1134,
+      "both_pass": 251,
+      "left_only": 208,
+      "right_only": 39
+    },
+    "Grok 4.6 vs GPT-6 Sol": {
+      "both_fail": 1085,
+      "both_pass": 320,
+      "left_only": 139,
+      "right_only": 88
+    },
+    "Grok 4.6 vs Gemini 3.7 Flash": {
+      "both_fail": 1105,
+      "both_pass": 287,
+      "left_only": 172,
+      "right_only": 68
+    },
+    "Grok 4.6 vs Inkling": {
+      "both_fail": 1146,
+      "both_pass": 167,
+      "left_only": 292,
+      "right_only": 27
+    },
+    "Grok 4.6 vs Kimi K3": {
+      "both_fail": 1114,
+      "both_pass": 169,
+      "left_only": 290,
+      "right_only": 59
+    },
+    "Grok 4.6 vs Laguna S2.1": {
+      "both_fail": 1170,
+      "both_pass": 37,
+      "left_only": 422,
+      "right_only": 3
+    },
+    "Grok 4.6 vs Qwen 3.8 Flash Next": {
+      "both_fail": 1101,
+      "both_pass": 307,
+      "left_only": 152,
+      "right_only": 72
+    },
+    "Grok 4.6 vs Qwen 3.8 Max": {
+      "both_fail": 1088,
+      "both_pass": 328,
+      "left_only": 131,
+      "right_only": 85
+    },
+    "Grok 4.6 vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1150,
+      "both_pass": 213,
+      "left_only": 246,
+      "right_only": 23
+    },
+    "Inkling vs Claude Fable 5": {
+      "both_fail": 1367,
+      "both_pass": 48,
+      "left_only": 146,
+      "right_only": 71
+    },
+    "Inkling vs DWM": {
+      "both_fail": 1420,
+      "both_pass": 67,
+      "left_only": 127,
+      "right_only": 18
+    },
+    "Inkling vs Laguna S2.1": {
+      "both_fail": 1426,
+      "both_pass": 28,
+      "left_only": 166,
+      "right_only": 12
+    },
+    "Kimi K3 vs Claude Fable 5": {
+      "both_fail": 1347,
+      "both_pass": 62,
+      "left_only": 166,
+      "right_only": 57
+    },
+    "Kimi K3 vs DWM": {
+      "both_fail": 1370,
+      "both_pass": 51,
+      "left_only": 177,
+      "right_only": 34
+    },
+    "Kimi K3 vs Inkling": {
+      "both_fail": 1295,
+      "both_pass": 85,
+      "left_only": 143,
+      "right_only": 109
+    },
+    "Kimi K3 vs Laguna S2.1": {
+      "both_fail": 1401,
+      "both_pass": 37,
+      "left_only": 191,
+      "right_only": 3
+    },
+    "Qwen 3.8 Flash Next vs Claude Fable 5": {
+      "both_fail": 1211,
+      "both_pass": 77,
+      "left_only": 302,
+      "right_only": 42
+    },
+    "Qwen 3.8 Flash Next vs Claude Fable 5.1": {
+      "both_fail": 1085,
+      "both_pass": 185,
+      "left_only": 194,
+      "right_only": 168
+    },
+    "Qwen 3.8 Flash Next vs Claude Opus 4.8": {
+      "both_fail": 1170,
+      "both_pass": 244,
+      "left_only": 135,
+      "right_only": 83
+    },
+    "Qwen 3.8 Flash Next vs Claude Opus 5": {
+      "both_fail": 1162,
+      "both_pass": 169,
+      "left_only": 210,
+      "right_only": 91
+    },
+    "Qwen 3.8 Flash Next vs DWM": {
+      "both_fail": 1233,
+      "both_pass": 65,
+      "left_only": 314,
+      "right_only": 20
+    },
+    "Qwen 3.8 Flash Next vs GLM 5.3": {
+      "both_fail": 1194,
+      "both_pass": 182,
+      "left_only": 197,
+      "right_only": 59
+    },
+    "Qwen 3.8 Flash Next vs GPT-6 Luna": {
+      "both_fail": 1180,
+      "both_pass": 217,
+      "left_only": 162,
+      "right_only": 73
+    },
+    "Qwen 3.8 Flash Next vs Gemini 3.7 Flash": {
+      "both_fail": 1137,
+      "both_pass": 239,
+      "left_only": 140,
+      "right_only": 116
+    },
+    "Qwen 3.8 Flash Next vs Inkling": {
+      "both_fail": 1204,
+      "both_pass": 145,
+      "left_only": 234,
+      "right_only": 49
+    },
+    "Qwen 3.8 Flash Next vs Kimi K3": {
+      "both_fail": 1189,
+      "both_pass": 164,
+      "left_only": 215,
+      "right_only": 64
+    },
+    "Qwen 3.8 Flash Next vs Laguna S2.1": {
+      "both_fail": 1249,
+      "both_pass": 36,
+      "left_only": 343,
+      "right_only": 4
+    },
+    "Qwen 3.8 Flash Next vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1211,
+      "both_pass": 194,
+      "left_only": 185,
+      "right_only": 42
+    },
+    "Qwen 3.8 Max vs Claude Fable 5": {
+      "both_fail": 1177,
+      "both_pass": 77,
+      "left_only": 336,
+      "right_only": 42
+    },
+    "Qwen 3.8 Max vs Claude Fable 5.1": {
+      "both_fail": 1053,
+      "both_pass": 187,
+      "left_only": 226,
+      "right_only": 166
+    },
+    "Qwen 3.8 Max vs Claude Opus 4.8": {
+      "both_fail": 1138,
+      "both_pass": 246,
+      "left_only": 167,
+      "right_only": 81
+    },
+    "Qwen 3.8 Max vs Claude Opus 5": {
+      "both_fail": 1138,
+      "both_pass": 179,
+      "left_only": 234,
+      "right_only": 81
+    },
+    "Qwen 3.8 Max vs DWM": {
+      "both_fail": 1201,
+      "both_pass": 67,
+      "left_only": 346,
+      "right_only": 18
+    },
+    "Qwen 3.8 Max vs GLM 5.3": {
+      "both_fail": 1146,
+      "both_pass": 168,
+      "left_only": 245,
+      "right_only": 73
+    },
+    "Qwen 3.8 Max vs GPT-5.5": {
+      "both_fail": 1095,
+      "both_pass": 287,
+      "left_only": 126,
+      "right_only": 124
+    },
+    "Qwen 3.8 Max vs GPT-5.6 Sol": {
+      "both_fail": 1118,
+      "both_pass": 285,
+      "left_only": 128,
+      "right_only": 101
+    },
+    "Qwen 3.8 Max vs GPT-6 Luna": {
+      "both_fail": 1149,
+      "both_pass": 220,
+      "left_only": 193,
+      "right_only": 70
+    },
+    "Qwen 3.8 Max vs GPT-6 Sol": {
+      "both_fail": 1099,
+      "both_pass": 288,
+      "left_only": 125,
+      "right_only": 120
+    },
+    "Qwen 3.8 Max vs Gemini 3.7 Flash": {
+      "both_fail": 1117,
+      "both_pass": 253,
+      "left_only": 160,
+      "right_only": 102
+    },
+    "Qwen 3.8 Max vs Inkling": {
+      "both_fail": 1173,
+      "both_pass": 148,
+      "left_only": 265,
+      "right_only": 46
+    },
+    "Qwen 3.8 Max vs Kimi K3": {
+      "both_fail": 1153,
+      "both_pass": 162,
+      "left_only": 251,
+      "right_only": 66
+    },
+    "Qwen 3.8 Max vs Laguna S2.1": {
+      "both_fail": 1216,
+      "both_pass": 37,
+      "left_only": 376,
+      "right_only": 3
+    },
+    "Qwen 3.8 Max vs Qwen 3.8 Flash Next": {
+      "both_fail": 1107,
+      "both_pass": 267,
+      "left_only": 146,
+      "right_only": 112
+    },
+    "Qwen 3.8 Max vs Qwen-AgentWorld-35B-A3B": {
+      "both_fail": 1181,
+      "both_pass": 198,
+      "left_only": 215,
+      "right_only": 38
+    },
+    "Qwen-AgentWorld-35B-A3B vs Claude Fable 5": {
+      "both_fail": 1336,
+      "both_pass": 59,
+      "left_only": 177,
+      "right_only": 60
+    },
+    "Qwen-AgentWorld-35B-A3B vs DWM": {
+      "both_fail": 1363,
+      "both_pass": 52,
+      "left_only": 184,
+      "right_only": 33
+    },
+    "Qwen-AgentWorld-35B-A3B vs Inkling": {
+      "both_fail": 1323,
+      "both_pass": 121,
+      "left_only": 115,
+      "right_only": 73
+    },
+    "Qwen-AgentWorld-35B-A3B vs Kimi K3": {
+      "both_fail": 1296,
+      "both_pass": 128,
+      "left_only": 108,
+      "right_only": 100
+    },
+    "Qwen-AgentWorld-35B-A3B vs Laguna S2.1": {
+      "both_fail": 1393,
+      "both_pass": 37,
+      "left_only": 199,
+      "right_only": 3
+    }
+  },
+  "population_failure_anatomy": {
+    "all": {
+      "answered_failures": 22431,
+      "any_wrong_value": {
+        "n": 11935,
+        "pct": 53.21
+      },
+      "categories": {
+        "invention_only": {
+          "n": 98,
+          "pct": 0.44
+        },
+        "omission_only": {
+          "n": 1131,
+          "pct": 5.04
+        },
+        "schema_substitution": {
+          "n": 3920,
+          "pct": 17.48
+        },
+        "semantic_or_error_surface": {
+          "n": 5347,
+          "pct": 23.84
+        },
+        "wrong_value_only": {
+          "n": 5044,
+          "pct": 22.49
+        },
+        "wrong_value_plus_structure": {
+          "n": 6891,
+          "pct": 30.72
+        }
+      },
+      "failed_decisions": 26217,
+      "no_usable_response": 3786,
+      "no_usable_response_pct_of_failures": 14.44,
+      "purely_structural": {
+        "n": 5149,
+        "pct": 22.95
+      }
+    },
+    "by_domain": {
+      "code": {
+        "answered_failures": 7164,
+        "any_wrong_value": {
+          "n": 3907,
+          "pct": 54.54
+        },
+        "categories": {
+          "invention_only": {
+            "n": 14,
+            "pct": 0.2
+          },
+          "omission_only": {
+            "n": 346,
+            "pct": 4.83
+          },
+          "schema_substitution": {
+            "n": 1646,
+            "pct": 22.98
+          },
+          "semantic_or_error_surface": {
+            "n": 1251,
+            "pct": 17.46
+          },
+          "wrong_value_only": {
+            "n": 1542,
+            "pct": 21.52
+          },
+          "wrong_value_plus_structure": {
+            "n": 2365,
+            "pct": 33.01
+          }
+        },
+        "failed_decisions": 8819,
+        "no_usable_response": 1655,
+        "no_usable_response_pct_of_failures": 18.77,
+        "purely_structural": {
+          "n": 2006,
+          "pct": 28.0
+        }
+      },
+      "dialogue": {
+        "answered_failures": 2902,
+        "any_wrong_value": {
+          "n": 1926,
+          "pct": 66.37
+        },
+        "categories": {
+          "invention_only": {
+            "n": 26,
+            "pct": 0.9
+          },
+          "omission_only": {
+            "n": 189,
+            "pct": 6.51
+          },
+          "schema_substitution": {
+            "n": 486,
+            "pct": 16.75
+          },
+          "semantic_or_error_surface": {
+            "n": 275,
+            "pct": 9.48
+          },
+          "wrong_value_only": {
+            "n": 878,
+            "pct": 30.25
+          },
+          "wrong_value_plus_structure": {
+            "n": 1048,
+            "pct": 36.11
+          }
+        },
+        "failed_decisions": 3403,
+        "no_usable_response": 501,
+        "no_usable_response_pct_of_failures": 14.72,
+        "purely_structural": {
+          "n": 701,
+          "pct": 24.16
+        }
+      },
+      "enterprise": {
+        "answered_failures": 4864,
+        "any_wrong_value": {
+          "n": 2729,
+          "pct": 56.11
+        },
+        "categories": {
+          "invention_only": {
+            "n": 20,
+            "pct": 0.41
+          },
+          "omission_only": {
+            "n": 237,
+            "pct": 4.87
+          },
+          "schema_substitution": {
+            "n": 666,
+            "pct": 13.69
+          },
+          "semantic_or_error_surface": {
+            "n": 1212,
+            "pct": 24.92
+          },
+          "wrong_value_only": {
+            "n": 1478,
+            "pct": 30.39
+          },
+          "wrong_value_plus_structure": {
+            "n": 1251,
+            "pct": 25.72
+          }
+        },
+        "failed_decisions": 5675,
+        "no_usable_response": 811,
+        "no_usable_response_pct_of_failures": 14.29,
+        "purely_structural": {
+          "n": 923,
+          "pct": 18.98
+        }
+      },
+      "game": {
+        "answered_failures": 4510,
+        "any_wrong_value": {
+          "n": 1608,
+          "pct": 35.65
+        },
+        "categories": {
+          "invention_only": {
+            "n": 23,
+            "pct": 0.51
+          },
+          "omission_only": {
+            "n": 153,
+            "pct": 3.39
+          },
+          "schema_substitution": {
+            "n": 443,
+            "pct": 9.82
+          },
+          "semantic_or_error_surface": {
+            "n": 2283,
+            "pct": 50.62
+          },
+          "wrong_value_only": {
+            "n": 557,
+            "pct": 12.35
+          },
+          "wrong_value_plus_structure": {
+            "n": 1051,
+            "pct": 23.3
+          }
+        },
+        "failed_decisions": 4825,
+        "no_usable_response": 315,
+        "no_usable_response_pct_of_failures": 6.53,
+        "purely_structural": {
+          "n": 619,
+          "pct": 13.73
+        }
+      },
+      "math_and_science": {
+        "answered_failures": 2991,
+        "any_wrong_value": {
+          "n": 1765,
+          "pct": 59.01
+        },
+        "categories": {
+          "invention_only": {
+            "n": 15,
+            "pct": 0.5
+          },
+          "omission_only": {
+            "n": 206,
+            "pct": 6.89
+          },
+          "schema_substitution": {
+            "n": 679,
+            "pct": 22.7
+          },
+          "semantic_or_error_surface": {
+            "n": 326,
+            "pct": 10.9
+          },
+          "wrong_value_only": {
+            "n": 589,
+            "pct": 19.69
+          },
+          "wrong_value_plus_structure": {
+            "n": 1176,
+            "pct": 39.32
+          }
+        },
+        "failed_decisions": 3495,
+        "no_usable_response": 504,
+        "no_usable_response_pct_of_failures": 14.42,
+        "purely_structural": {
+          "n": 900,
+          "pct": 30.09
+        }
+      }
+    }
+  },
+  "schema": "wm-failure-anatomy/2",
+  "scope": {
+    "answered_failures": 22431,
+    "decisions": 32640,
+    "failed_decisions": 26217,
+    "general_models": [
+      "GPT-6 Astra",
+      "Grok 4.6",
+      "Claude Opus 5.5",
+      "Qwen 3.8 Max",
+      "GPT-5.5",
+      "GPT-6 Sol",
+      "GPT-5.6 Sol",
+      "Qwen 3.8 Flash Next",
+      "Gemini 3.7 Flash",
+      "Claude Fable 5.1",
+      "Claude Opus 4.8",
+      "GPT-6 Luna",
+      "Claude Opus 5",
+      "GLM 5.3",
+      "Kimi K3",
+      "Inkling",
+      "Claude Fable 5",
+      "Laguna S2.1"
+    ],
+    "items": 1632,
+    "models": [
+      "GPT-6 Astra",
+      "Grok 4.6",
+      "Claude Opus 5.5",
+      "Qwen 3.8 Max",
+      "GPT-5.5",
+      "GPT-6 Sol",
+      "GPT-5.6 Sol",
+      "Qwen 3.8 Flash Next",
+      "Gemini 3.7 Flash",
+      "Claude Fable 5.1",
+      "Claude Opus 4.8",
+      "GPT-6 Luna",
+      "Claude Opus 5",
+      "GLM 5.3",
+      "Qwen-AgentWorld-35B-A3B",
+      "Kimi K3",
+      "Inkling",
+      "Claude Fable 5",
+      "DWM",
+      "Laguna S2.1"
+    ],
+    "no_usable_response": 3786,
+    "passes": 6423,
+    "specialized_world_models": [
+      "Qwen-AgentWorld-35B-A3B",
+      "DWM"
+    ]
+  },
+  "skill_operator_concentration": {
+    "access_control": {
+      "n_items": 257,
+      "top_operator": "authorized_lifecycle_quorum_batch_audit",
+      "top_operator_n": 76,
+      "top_operator_pct": 29.57,
+      "unique_operators": 6
+    },
+    "computational_accuracy": {
+      "n_items": 491,
+      "top_operator": "authorized_lifecycle_quorum_batch_audit",
+      "top_operator_n": 76,
+      "top_operator_pct": 15.48,
+      "unique_operators": 21
+    },
+    "content_repetition": {
+      "n_items": 192,
+      "top_operator": "counterfactual_evidence_resolution_audit",
+      "top_operator_n": 101,
+      "top_operator_pct": 52.6,
+      "unique_operators": 4
+    },
+    "context_fabrication": {
+      "n_items": 368,
+      "top_operator": "counterfactual_evidence_resolution_audit",
+      "top_operator_n": 101,
+      "top_operator_pct": 27.45,
+      "unique_operators": 9
+    },
+    "contradiction_detection": {
+      "n_items": 190,
+      "top_operator": "counterfactual_evidence_resolution_audit",
+      "top_operator_n": 101,
+      "top_operator_pct": 53.16,
+      "unique_operators": 5
+    },
+    "error_fidelity": {
+      "n_items": 93,
+      "top_operator": "authorized_lifecycle_denial_precedence_dag_audit",
+      "top_operator_n": 29,
+      "top_operator_pct": 31.18,
+      "unique_operators": 6
+    },
+    "format_stability": {
+      "n_items": 327,
+      "top_operator": "authorized_lifecycle_quorum_batch_audit",
+      "top_operator_n": 76,
+      "top_operator_pct": 23.24,
+      "unique_operators": 8
+    },
+    "irreversibility": {
+      "n_items": 210,
+      "top_operator": "transactional_schema_batch_reconciliation",
+      "top_operator_n": 102,
+      "top_operator_pct": 48.57,
+      "unique_operators": 5
+    },
+    "partial_failure_semantics": {
+      "n_items": 322,
+      "top_operator": "transactional_schema_batch_reconciliation",
+      "top_operator_n": 102,
+      "top_operator_pct": 31.68,
+      "unique_operators": 13
+    },
+    "quota_enforcement": {
+      "n_items": 82,
+      "top_operator": "quota_enforcement_probe",
+      "top_operator_n": 30,
+      "top_operator_pct": 36.59,
+      "unique_operators": 5
+    },
+    "referential_integrity": {
+      "n_items": 279,
+      "top_operator": "transactional_schema_batch_reconciliation",
+      "top_operator_n": 102,
+      "top_operator_pct": 36.56,
+      "unique_operators": 6
+    },
+    "replay_determinism": {
+      "n_items": 1031,
+      "top_operator": "transactional_schema_batch_reconciliation",
+      "top_operator_n": 102,
+      "top_operator_pct": 9.89,
+      "unique_operators": 39
+    },
+    "rule_enforcement": {
+      "n_items": 684,
+      "top_operator": "transactional_schema_batch_reconciliation",
+      "top_operator_n": 102,
+      "top_operator_pct": 14.91,
+      "unique_operators": 18
+    },
+    "schema_conformance": {
+      "n_items": 200,
+      "top_operator": "transactional_schema_batch_reconciliation",
+      "top_operator_n": 102,
+      "top_operator_pct": 51.0,
+      "unique_operators": 4
+    },
+    "side_effect_propagation": {
+      "n_items": 517,
+      "top_operator": "authorized_lifecycle_quorum_batch_audit",
+      "top_operator_n": 76,
+      "top_operator_pct": 14.7,
+      "unique_operators": 25
+    },
+    "sycophantic_confirmation": {
+      "n_items": 92,
+      "top_operator": "adversarial_confirmation_evidence_audit",
+      "top_operator_n": 75,
+      "top_operator_pct": 81.52,
+      "unique_operators": 3
+    },
+    "temporal_ordering": {
+      "n_items": 943,
+      "top_operator": "transactional_schema_batch_reconciliation",
+      "top_operator_n": 102,
+      "top_operator_pct": 10.82,
+      "unique_operators": 36
+    },
+    "transition_correctness": {
+      "n_items": 262,
+      "top_operator": "authorized_lifecycle_quorum_batch_audit",
+      "top_operator_n": 76,
+      "top_operator_pct": 29.01,
+      "unique_operators": 8
+    },
+    "under_over_erroring": {
+      "n_items": 193,
+      "top_operator": "near_twin_mutate",
+      "top_operator_n": 92,
+      "top_operator_pct": 47.67,
+      "unique_operators": 8
+    },
+    "write_read_persistence": {
+      "n_items": 207,
+      "top_operator": "bitemporal_history_reconciliation",
+      "top_operator_n": 49,
+      "top_operator_pct": 23.67,
+      "unique_operators": 15
+    }
+  },
+  "source_hashes": {
+    "eval_data": "99cc6b668c9c4227bd6dd73b4717f935594de32cbfb9d8a72ad8a76dec569304",
+    "score:Claude Fable 5": "f491980af47f5953fcd1153448c28aaeabdcdd4d3b0bfe5ff9f00492cffcb067",
+    "score:Claude Fable 5.1": "81dead07ce3122f33e2b479fbbc2401071df8495df0a43387e67cc05e7b74f34",
+    "score:Claude Opus 4.8": "b2d3bf7bec66a7d9ef77a574e22c260e4f3524418198d494e79514f84b032548",
+    "score:Claude Opus 5": "c638e1b38bc915b8017c40e1214fa7c9ed541228a1ad6c5fce860996d0d59fc8",
+    "score:Claude Opus 5.5": "58a10ca826750e28015aea073e548fc84c2c95f167f7fc8805b0090115dba1d3",
+    "score:DWM": "85d5688e2784f9513755a19cdf2ca77fc34e109403f1ccdf9a55d4c1548e41cc",
+    "score:GLM 5.3": "1e7e775da1472e038673b004cccb156854eee66c52a65960ccd3c6a76f21eeaa",
+    "score:GPT-5.5": "42b5fa69939f7ac1d394c9b53579f98a0954af0670418ad2afd34d1f4d00a718",
+    "score:GPT-5.6 Sol": "500039b7df5c7dd874860abc1a8121f7ca6fcb62155b964765b2db6f6a64fd91",
+    "score:GPT-6 Astra": "7aa69afc910a1d6c397f0ddb37f26d9a3597a761ed71da752462aa1d289cee08",
+    "score:GPT-6 Luna": "2fedb7dacec39e69358aa5d39e504197fee0fbcb41065c51c34f7cf3e1625e61",
+    "score:GPT-6 Sol": "a2f849f62f1a76e3e41f13078bd60dabe6e9cd69e3b0d8e0de4e54f9a26b31bf",
+    "score:Gemini 3.7 Flash": "bdf161346b17935958057d5f2d59e24f178640975ef2fbb7a2b0e83cd39fe9e2",
+    "score:Grok 4.6": "a851839e92a40e3971315e82f366ce0f50ec8d50ab21f4116a833688b772fcfe",
+    "score:Inkling": "162af4ff94dea0a6a76303c7e7496a0e85d2d04d43ea770c1d8ffb6d1d6b99bd",
+    "score:Kimi K3": "262d6980b341833b6fb74b8943783f1ed73638290b2246655ce617e84e3c05cc",
+    "score:Laguna S2.1": "a33347adf44afff4e1913c3154d629b44268569ea4686ac67d0b1c1f09d17090",
+    "score:Qwen 3.8 Flash Next": "f3f01bae8482ffedbba8880bc4f130d60532e7d6a7534fa665f039eb9bcfc0b6",
+    "score:Qwen 3.8 Max": "4a91e52a8e722a3098a41604cc36aabdb93dd769a1ec181381d533d30fdf89fc",
+    "score:Qwen-AgentWorld-35B-A3B": "39a13e0790abec4c9ec30424f89f7023bee5281f814afc0185dc74348aa23468"
+  },
+  "top_changed_or_missing_leaf_names_by_row_presence": [
+    {
+      "failure_rows": 7940,
+      "leaf": "value"
+    },
+    {
+      "failure_rows": 7069,
+      "leaf": "status"
+    },
+    {
+      "failure_rows": 4539,
+      "leaf": "reason"
+    },
+    {
+      "failure_rows": 3209,
+      "leaf": "evidence[]"
+    },
+    {
+      "failure_rows": 3198,
+      "leaf": "maximum_trust"
+    },
+    {
+      "failure_rows": 3142,
+      "leaf": "claim"
+    },
+    {
+      "failure_rows": 2985,
+      "leaf": "op"
+    },
+    {
+      "failure_rows": 2935,
+      "leaf": "id"
+    },
+    {
+      "failure_rows": 2635,
+      "leaf": "state"
+    },
+    {
+      "failure_rows": 2529,
+      "leaf": "version"
+    },
+    {
+      "failure_rows": 2513,
+      "leaf": "observed_state"
+    },
+    {
+      "failure_rows": 2468,
+      "leaf": "allowed"
+    },
+    {
+      "failure_rows": 2302,
+      "leaf": "observed_version"
+    },
+    {
+      "failure_rows": 2237,
+      "leaf": "evidence_ids[]"
+    },
+    {
+      "failure_rows": 2172,
+      "leaf": "requested"
+    },
+    {
+      "failure_rows": 2096,
+      "leaf": "field"
+    },
+    {
+      "failure_rows": 2072,
+      "leaf": "error"
+    },
+    {
+      "failure_rows": 1923,
+      "leaf": "effective_capability"
+    },
+    {
+      "failure_rows": 1907,
+      "leaf": "revision"
+    },
+    {
+      "failure_rows": 1807,
+      "leaf": "clean_value_sum_mod_997"
+    },
+    {
+      "failure_rows": 1685,
+      "leaf": "position"
+    },
+    {
+      "failure_rows": 1602,
+      "leaf": "omit_sequence"
+    },
+    {
+      "failure_rows": 1567,
+      "leaf": "committed"
+    },
+    {
+      "failure_rows": 1535,
+      "leaf": "base"
+    },
+    {
+      "failure_rows": 1455,
+      "leaf": "ok_count"
+    },
+    {
+      "failure_rows": 1255,
+      "leaf": "schema_error_count"
+    },
+    {
+      "failure_rows": 1171,
+      "leaf": "name"
+    },
+    {
+      "failure_rows": 1139,
+      "leaf": "accepted"
+    },
+    {
+      "failure_rows": 1035,
+      "leaf": "request"
+    },
+    {
+      "failure_rows": 1035,
+      "leaf": "resolved_count"
+    }
+  ]
+}

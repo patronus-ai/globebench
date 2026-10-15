@@ -1,0 +1,2 @@
+model,n,task_success_rate_all_rows,semantic_accuracy_resolved,unresolved,serving_nonresponse,format_fail
+openai/gpt-6-astra,1632,0.495711,0.495711,0,0,453

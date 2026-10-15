@@ -1,0 +1,2 @@
+model,n,task_success_rate_all_rows,semantic_accuracy_resolved,unresolved,serving_nonresponse,format_fail
+xai/grok-4.6,1632,0.28125,0.28125,0,0,544
